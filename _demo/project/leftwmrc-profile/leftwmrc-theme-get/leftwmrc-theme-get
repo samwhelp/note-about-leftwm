@@ -426,6 +426,7 @@ dracula_rounded
 orange_forest
 soothe
 tng
+windowsxp
 EOF
 )
 
@@ -748,6 +749,26 @@ mod_tng_install () {
 
 
 ################################################################################
+### Head: Model windowsxp
+##
+
+mod_windowsxp_install () {
+
+	## https://github.com/lex148/leftwm-windowsxp
+
+	echo
+	leftwmrc_theme_repo_clone 'windowsxp' 'https://github.com/lex148/leftwm-windowsxp.git'
+	echo
+
+}
+
+
+##
+### Tail: Model windowsxp
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -840,6 +861,12 @@ sub_run_tng () {
 	mod_tng_install "$@"
 }
 
+
+sub_run_windowsxp () {
+	#echo "sub_run_windowsxp"
+	mod_windowsxp_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -903,6 +930,8 @@ Example:
 		$ $cmd_name soothe
 
 		$ $cmd_name tng
+
+		$ $cmd_name windowsxp
 
 
 Debug:

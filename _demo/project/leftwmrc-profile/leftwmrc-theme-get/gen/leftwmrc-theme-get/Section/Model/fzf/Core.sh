@@ -36,6 +36,7 @@ dracula_rounded
 orange_forest
 soothe
 tng
+windowsxp
 EOF
 )
 

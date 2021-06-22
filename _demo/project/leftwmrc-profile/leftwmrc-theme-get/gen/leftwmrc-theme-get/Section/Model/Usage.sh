@@ -9,3 +9,4 @@
 <?php include_once(__DIR__ . '/theme_orange_forest/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_soothe/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_tng/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_windowsxp/Usage.sh'); ?>
