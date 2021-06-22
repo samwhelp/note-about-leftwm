@@ -33,6 +33,7 @@ red_moon
 blue_coffee
 changed_sunset
 dracula_rounded
+orange_forest
 EOF
 )
 

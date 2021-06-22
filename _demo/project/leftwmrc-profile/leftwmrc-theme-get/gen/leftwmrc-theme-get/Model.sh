@@ -8,3 +8,4 @@
 <?php include_once(__DIR__ . '/Section/Model/theme_blue_coffee/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_changed_sunset/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_dracula_rounded/Core.sh'); ?>
+<?php include_once(__DIR__ . '/Section/Model/theme_orange_forest/Core.sh'); ?>
