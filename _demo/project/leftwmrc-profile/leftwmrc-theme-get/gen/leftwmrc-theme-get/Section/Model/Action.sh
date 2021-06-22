@@ -4,3 +4,4 @@
 <?php include_once(__DIR__ . '/theme_bumblebee/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_ground_zero/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_red_moon/Action.sh'); ?>
+<?php include_once(__DIR__ . '/theme_blue_coffee/Action.sh'); ?>

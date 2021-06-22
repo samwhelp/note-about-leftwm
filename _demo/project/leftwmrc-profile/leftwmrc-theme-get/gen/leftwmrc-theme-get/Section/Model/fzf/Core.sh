@@ -30,6 +30,7 @@ forest
 bumblebee
 ground_zero
 red_moon
+blue_coffee
 EOF
 )
 
