@@ -424,6 +424,7 @@ blue_coffee
 changed_sunset
 dracula_rounded
 orange_forest
+soothe
 EOF
 )
 
@@ -705,6 +706,27 @@ mod_orange_forest_install () {
 
 
 ################################################################################
+### Head: Model soothe
+##
+
+mod_soothe_install () {
+
+	## https://github.com/b4skyx/leftwm-soothe
+
+	echo
+	echo 'Todo:mod_soothe_install'
+	#leftwmrc_theme_repo_clone 'soothe' 'https://github.com/b4skyx/leftwm-soothe.git'
+	echo
+
+}
+
+
+##
+### Tail: Model soothe
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -785,6 +807,12 @@ sub_run_orange_forest () {
 	mod_orange_forest_install "$@"
 }
 
+
+sub_run_soothe () {
+	#echo "sub_run_soothe"
+	mod_soothe_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -844,6 +872,8 @@ Example:
 		$ $cmd_name dracula_rounded
 
 		$ $cmd_name orange_forest
+
+		$ $cmd_name soothe
 
 
 Debug:

@@ -34,6 +34,7 @@ blue_coffee
 changed_sunset
 dracula_rounded
 orange_forest
+soothe
 EOF
 )
 

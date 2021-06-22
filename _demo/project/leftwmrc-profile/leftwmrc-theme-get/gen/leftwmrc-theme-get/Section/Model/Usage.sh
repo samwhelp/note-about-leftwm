@@ -7,3 +7,4 @@
 <?php include_once(__DIR__ . '/theme_changed_sunset/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_dracula_rounded/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_orange_forest/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_soothe/Usage.sh'); ?>
