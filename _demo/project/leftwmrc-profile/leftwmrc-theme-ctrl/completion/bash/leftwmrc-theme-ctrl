@@ -1,0 +1,18 @@
+
+## /usr/local/share/bash-completion/completions/leftwmrc-theme-ctrl
+## $ sudo install -Dm644 ./leftwmrc-theme-ctrl /usr/local/share/bash-completion/completions/leftwmrc-theme-ctrl
+
+_leftwmrc_theme_ctrl () {
+
+	local cur prev words cword
+	_init_completion || return
+
+	if [ "$cword" = "1" ]; then
+		local action_list=$(DEBUG_LEFTWMRC_THEME_CTRL=false leftwmrc-theme-ctrl self_actions)
+		COMPREPLY=( $( compgen -W "$action_list" -- "$cur" ) )
+	fi
+
+	return 0
+}
+
+complete -F _leftwmrc_theme_ctrl leftwmrc-theme-ctrl
