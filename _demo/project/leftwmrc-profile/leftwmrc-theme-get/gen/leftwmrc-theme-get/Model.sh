@@ -12,3 +12,4 @@
 <?php include_once(__DIR__ . '/Section/Model/theme_soothe/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_tng/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_windowsxp/Core.sh'); ?>
+<?php include_once(__DIR__ . '/Section/Model/theme_coffee/Core.sh'); ?>

@@ -37,6 +37,7 @@ orange_forest
 soothe
 tng
 windowsxp
+coffee
 EOF
 )
 
