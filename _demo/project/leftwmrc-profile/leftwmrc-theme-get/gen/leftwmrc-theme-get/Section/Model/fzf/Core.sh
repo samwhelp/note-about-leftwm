@@ -27,6 +27,8 @@ fi
 local selected=$(fzf << EOF
 all
 forest
+bumblebee
+ground_zero
 EOF
 )
 

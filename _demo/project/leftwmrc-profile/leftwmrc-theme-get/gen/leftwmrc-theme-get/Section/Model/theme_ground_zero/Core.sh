@@ -1,21 +1,22 @@
 
 
 ################################################################################
-### Head: Model bumblebee
+### Head: Model ground_zero
 ##
 
-mod_bumblebee_install () {
+mod_ground_zero_install () {
 
-	## https://github.com/mfdorst/leftwm-bumblebee
+	## https://github.com/Qwart376/Ground-Zero
 
 	echo
-	leftwmrc_theme_repo_clone 'bumblebee' 'https://github.com/mfdorst/leftwm-bumblebee.git'
+	leftwmrc_theme_repo_clone 'ground_zero' 'https://github.com/Qwart376/Ground-Zero.git'
 	echo
 
-	mod_bumblebee_install_fix 'bumblebee'
+
+	mod_ground_zero_install_fix 'ground_zero'
 }
 
-mod_bumblebee_install_fix () {
+mod_ground_zero_install_fix () {
 
 	local theme_dir_name="$1"
 
@@ -35,8 +36,6 @@ mod_bumblebee_install_fix () {
 
 }
 
-
-
 ##
-### Tail: Model bumblebee
+### Tail: Model ground_zero
 ################################################################################

@@ -417,6 +417,8 @@ fi
 local selected=$(fzf << EOF
 all
 forest
+bumblebee
+ground_zero
 EOF
 )
 
@@ -463,42 +465,9 @@ mod_forest_install () {
 	## https://github.com/lex148/forest
 
 	echo
-	## mod_forest_repo_clone "$1" 'https://github.com/lex148/forest.git'
-	mod_forest_repo_clone 'forest' 'https://github.com/lex148/forest.git'
+	leftwmrc_theme_repo_clone 'forest' 'https://github.com/lex148/forest.git'
 	echo
 }
-
-mod_forest_repo_clone () {
-
-	## $ leftwmrc-theme-get forest
-
-	local name="$1"
-	local repo_url="$2"
-
-	if [ "none$name" == 'none' ]; then
-		name='forest'
-	fi
-
-	echo "mkdir -p $THE_LEFTWMRC_THEMES_DIR_PATH"
-	mkdir -p "$THE_LEFTWMRC_THEMES_DIR_PATH"
-
-	echo "cd $THE_LEFTWMRC_THEMES_DIR_PATH"
-	cd "$THE_LEFTWMRC_THEMES_DIR_PATH" ## cd ~/.config/leftwm/themes
-
-
-	if [ -d "$name" ]; then
-		echo "## Is Exists:" "$THE_LEFTWMRC_THEMES_DIR_PATH/$name"
-		return 0;
-	fi
-
-	echo "git clone $repo_url $name "
-	git clone "$repo_url" "$name"  ## git clone https://github.com/lex148/forest.git forest
-
-	cd "$OLDPWD"
-
-}
-
-
 
 ##
 ### Tail: Model forest
@@ -516,14 +485,75 @@ mod_bumblebee_install () {
 	echo
 	leftwmrc_theme_repo_clone 'bumblebee' 'https://github.com/mfdorst/leftwm-bumblebee.git'
 	echo
+
+	mod_bumblebee_install_fix 'bumblebee'
 }
 
+mod_bumblebee_install_fix () {
 
+	local theme_dir_name="$1"
+
+	local theme_dir_path="$THE_LEFTWMRC_THEMES_DIR_PATH/$theme_dir_name"
+
+	local up_file_path="$theme_dir_path/up"
+	local down_file_path="$theme_dir_path/down"
+
+	echo "chmod +x $up_file_path"
+	chmod u+x "$up_file_path"
+
+	echo "chmod +x $down_file_path"
+	chmod +x "$down_file_path"
+
+	echo "sed -i 's/^SCRIPTPATH\/down=/\\\$SCRIPTPATH\/down/' $up_file_path"
+	sed -i 's/^SCRIPTPATH\/down/$SCRIPTPATH\/down/' "$up_file_path"
+
+}
 
 
 
 ##
 ### Tail: Model bumblebee
+################################################################################
+
+
+################################################################################
+### Head: Model ground_zero
+##
+
+mod_ground_zero_install () {
+
+	## https://github.com/Qwart376/Ground-Zero
+
+	echo
+	leftwmrc_theme_repo_clone 'ground_zero' 'https://github.com/Qwart376/Ground-Zero.git'
+	echo
+
+
+	mod_ground_zero_install_fix 'ground_zero'
+}
+
+mod_ground_zero_install_fix () {
+
+	local theme_dir_name="$1"
+
+	local theme_dir_path="$THE_LEFTWMRC_THEMES_DIR_PATH/$theme_dir_name"
+
+	local up_file_path="$theme_dir_path/up"
+	local down_file_path="$theme_dir_path/down"
+
+	echo "chmod +x $up_file_path"
+	chmod u+x "$up_file_path"
+
+	echo "chmod +x $down_file_path"
+	chmod +x "$down_file_path"
+
+	echo "sed -i 's/^SCRIPTPATH\/down=/\\\$SCRIPTPATH\/down/' $up_file_path"
+	sed -i 's/^SCRIPTPATH\/down/$SCRIPTPATH\/down/' "$up_file_path"
+
+}
+
+##
+### Tail: Model ground_zero
 ################################################################################
 
 
@@ -570,6 +600,12 @@ sub_run_forest () {
 sub_run_bumblebee () {
 	#echo "sub_run_bumblebee"
 	mod_bumblebee_install "$@"
+}
+
+
+sub_run_ground_zero () {
+	#echo "sub_run_ground_zero"
+	mod_ground_zero_install "$@"
 }
 
 ##
@@ -619,6 +655,8 @@ Example:
 		$ $cmd_name forest
 
 		$ $cmd_name bumblebee
+
+		$ $cmd_name ground_zero
 
 
 Debug:
