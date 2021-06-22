@@ -1,0 +1,18 @@
+
+## /usr/local/share/bash-completion/completions/leftwmrc-theme-get
+## $ sudo install -Dm644 ./leftwmrc-theme-get /usr/local/share/bash-completion/completions/leftwmrc-theme-get
+
+_leftwmrc_theme_get () {
+
+	local cur prev words cword
+	_init_completion || return
+
+	if [ "$cword" = "1" ]; then
+		local action_list=$(DEBUG_LEFTWMRC_THEME_GET=false leftwmrc-theme-get self_actions)
+		COMPREPLY=( $( compgen -W "$action_list" -- "$cur" ) )
+	fi
+
+	return 0
+}
+
+complete -F _leftwmrc_theme_get leftwmrc-theme-get
