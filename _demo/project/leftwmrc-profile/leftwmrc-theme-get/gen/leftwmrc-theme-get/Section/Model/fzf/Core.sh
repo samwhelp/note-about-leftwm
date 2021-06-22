@@ -31,6 +31,7 @@ bumblebee
 ground_zero
 red_moon
 blue_coffee
+changed_sunset
 EOF
 )
 

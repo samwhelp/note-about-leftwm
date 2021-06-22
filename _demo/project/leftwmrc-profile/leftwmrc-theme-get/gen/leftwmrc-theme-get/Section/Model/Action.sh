@@ -5,3 +5,4 @@
 <?php include_once(__DIR__ . '/theme_ground_zero/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_red_moon/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_blue_coffee/Action.sh'); ?>
+<?php include_once(__DIR__ . '/theme_changed_sunset/Action.sh'); ?>

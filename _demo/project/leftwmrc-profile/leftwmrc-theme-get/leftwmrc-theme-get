@@ -421,6 +421,7 @@ bumblebee
 ground_zero
 red_moon
 blue_coffee
+changed_sunset
 EOF
 )
 
@@ -642,6 +643,26 @@ mod_blue_coffee_install_fix () {
 
 
 ################################################################################
+### Head: Model changed_sunset
+##
+
+mod_changed_sunset_install () {
+
+	## https://github.com/Syudagye/changed-sunset
+
+	echo
+	leftwmrc_theme_repo_clone 'changed_sunset' 'https://github.com/Syudagye/changed-sunset.git'
+	echo
+
+}
+
+
+##
+### Tail: Model changed_sunset
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -704,6 +725,12 @@ sub_run_blue_coffee () {
 	mod_blue_coffee_install "$@"
 }
 
+
+sub_run_changed_sunset () {
+	#echo "sub_run_changed_sunset"
+	mod_changed_sunset_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -757,6 +784,8 @@ Example:
 		$ $cmd_name red_moon
 
 		$ $cmd_name blue_coffee
+
+		$ $cmd_name changed_sunset
 
 
 Debug:
