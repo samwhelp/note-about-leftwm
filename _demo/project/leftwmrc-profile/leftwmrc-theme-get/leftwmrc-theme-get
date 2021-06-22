@@ -425,6 +425,7 @@ changed_sunset
 dracula_rounded
 orange_forest
 soothe
+tng
 EOF
 )
 
@@ -727,6 +728,26 @@ mod_soothe_install () {
 
 
 ################################################################################
+### Head: Model tng
+##
+
+mod_tng_install () {
+
+	## https://github.com/lex148/leftwm-tng
+
+	echo
+	leftwmrc_theme_repo_clone 'tng' 'https://github.com/lex148/leftwm-tng.git'
+	echo
+
+}
+
+
+##
+### Tail: Model tng
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -813,6 +834,12 @@ sub_run_soothe () {
 	mod_soothe_install "$@"
 }
 
+
+sub_run_tng () {
+	#echo "sub_run_tng"
+	mod_tng_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -874,6 +901,8 @@ Example:
 		$ $cmd_name orange_forest
 
 		$ $cmd_name soothe
+
+		$ $cmd_name tng
 
 
 Debug:

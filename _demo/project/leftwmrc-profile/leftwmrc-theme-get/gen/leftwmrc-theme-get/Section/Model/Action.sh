@@ -9,3 +9,4 @@
 <?php include_once(__DIR__ . '/theme_dracula_rounded/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_orange_forest/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_soothe/Action.sh'); ?>
+<?php include_once(__DIR__ . '/theme_tng/Action.sh'); ?>

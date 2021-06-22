@@ -35,6 +35,7 @@ changed_sunset
 dracula_rounded
 orange_forest
 soothe
+tng
 EOF
 )
 
