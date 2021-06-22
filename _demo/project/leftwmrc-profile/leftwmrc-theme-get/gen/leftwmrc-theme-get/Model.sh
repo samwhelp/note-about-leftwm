@@ -4,3 +4,4 @@
 <?php include_once(__DIR__ . '/Section/Model/theme_forest/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_bumblebee/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_ground_zero/Core.sh'); ?>
+<?php include_once(__DIR__ . '/Section/Model/theme_red_moon/Core.sh'); ?>

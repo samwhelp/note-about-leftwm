@@ -29,6 +29,7 @@ all
 forest
 bumblebee
 ground_zero
+red_moon
 EOF
 )
 
