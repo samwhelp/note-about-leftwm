@@ -5,3 +5,4 @@
 <?php include_once(__DIR__ . '/theme_red_moon/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_blue_coffee/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_changed_sunset/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_dracula_rounded/Usage.sh'); ?>

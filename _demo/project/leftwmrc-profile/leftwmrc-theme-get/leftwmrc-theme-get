@@ -422,6 +422,7 @@ ground_zero
 red_moon
 blue_coffee
 changed_sunset
+dracula_rounded
 EOF
 )
 
@@ -663,6 +664,26 @@ mod_changed_sunset_install () {
 
 
 ################################################################################
+### Head: Model dracula_rounded
+##
+
+mod_dracula_rounded_install () {
+
+	## https://github.com/AethanFoot/leftwm-theme-dracula-rounded
+
+	echo
+	leftwmrc_theme_repo_clone 'dracula_rounded' 'https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git'
+	echo
+
+
+}
+
+##
+### Tail: Model dracula_rounded
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -731,6 +752,12 @@ sub_run_changed_sunset () {
 	mod_changed_sunset_install "$@"
 }
 
+
+sub_run_dracula_rounded () {
+	#echo "sub_run_dracula_rounded"
+	mod_dracula_rounded_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -786,6 +813,8 @@ Example:
 		$ $cmd_name blue_coffee
 
 		$ $cmd_name changed_sunset
+
+		$ $cmd_name dracula_rounded
 
 
 Debug:
