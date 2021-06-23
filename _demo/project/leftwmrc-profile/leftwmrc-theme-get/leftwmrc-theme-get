@@ -416,18 +416,19 @@ fi
 	#https://en.wikipedia.org/wiki/Here_document
 local selected=$(fzf << EOF
 all
-forest
-bumblebee
-ground_zero
-red_moon
-blue_coffee
-changed_sunset
 dracula_rounded
+blue_coffee
+blue_coffee
+bumblebee
+changed_sunset
+coffee
+forest
+ground_zero
 orange_forest
+red_moon
 soothe
 tng
 windowsxp
-coffee
 EOF
 )
 
@@ -455,7 +456,21 @@ main_run_sub_cmd "$selected"
 ##
 
 mod_all_install () {
+
+	mod_dracula_rounded_install
+	mod_blue_coffee_install
+	mod_blue_coffee_install
+	mod_bumblebee_install
+	mod_changed_sunset_install
+	mod_coffee_install
 	mod_forest_install
+	mod_ground_zero_install
+	mod_orange_forest_install
+	mod_red_moon_install
+	mod_soothe_install
+	mod_tng_install
+	mod_windowsxp_install
+
 }
 
 

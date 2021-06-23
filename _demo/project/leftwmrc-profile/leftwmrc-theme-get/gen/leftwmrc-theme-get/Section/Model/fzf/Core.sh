@@ -26,18 +26,19 @@ fi
 	#https://en.wikipedia.org/wiki/Here_document
 local selected=$(fzf << EOF
 all
-forest
-bumblebee
-ground_zero
-red_moon
-blue_coffee
-changed_sunset
 dracula_rounded
+blue_coffee
+blue_coffee
+bumblebee
+changed_sunset
+coffee
+forest
+ground_zero
 orange_forest
+red_moon
 soothe
 tng
 windowsxp
-coffee
 EOF
 )
 
