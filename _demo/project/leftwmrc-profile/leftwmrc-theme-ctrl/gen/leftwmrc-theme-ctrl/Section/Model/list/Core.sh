@@ -17,8 +17,14 @@ mod_leftwmrc_theme_list () {
 
 	## for name in $(ls ./ -1); do
 	for name in *; do
+
 		dir_path="$THE_LEFTWMRC_THEMES_DIR_PATH/$name" ## ~/.config/leftwm/themes/demo
+
 		if is_not_leftwmrc_theme_dir "$dir_path"; then ## check ~/.config/leftwm/themes/demo/theme.toml
+			continue
+		fi
+
+		if [ "is_current" == "is_$name" ]; then ## check ~/.config/leftwm/themes/demo/theme.toml
 			continue
 		fi
 
