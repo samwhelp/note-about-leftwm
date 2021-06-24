@@ -62,7 +62,7 @@
 | `Alt + Ctrl + a` | Launch Terminal (xfce4-terminal) |
 | `Alt + Shift + t` | Launch Terminal (xterm) |
 | `Alt + Ctrl + t` | Launch Terminal (urxvt) |
-| `Alt + Shift + i` | Toggle Scratchpad (xfce4-terminal) |
+| `Alt + Shift + o` | Toggle Scratchpad (xfce4-terminal) |
 
 ### Launch Rofi
 

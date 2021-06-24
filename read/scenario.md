@@ -6,6 +6,11 @@ has_children: true
 
 # 使用情境
 
+## 開啟應用程式
+
+| 主題 |
+| --- |
+| [開啟 Terminal](scenario/launch-terminal) |
 
 ## 快速切換
 
