@@ -62,3 +62,8 @@
 | 系統操作 |
 | --- |
 | [系統操作](https://samwhelp.github.io/note-about-leftwm/read/scenario/system-control) |
+
+
+| 音量控制 |
+| --- |
+| [音量控制](https://samwhelp.github.io/note-about-leftwm/read/scenario/scenario/volume-control) |
