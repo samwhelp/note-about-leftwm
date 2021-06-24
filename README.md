@@ -42,6 +42,14 @@
 
 ### 使用情境
 
+| 開啟應用程式 |
+| --- |
+| [開啟 Terminal](https://samwhelp.github.io/note-about-leftwm/read/scenario/launch-terminal) |
+| [開啟 Rofi](https://samwhelp.github.io/note-about-leftwm/read/scenario/launch-rofi) |
+| [開啟 Dmenu](https://samwhelp.github.io/note-about-leftwm/read/scenario/launch-dmenu) |
+| [開啟常用的應用程式](https://samwhelp.github.io/note-about-leftwm/read/scenario/launch-favorite-app) |
+
+
 | 快速切換 |
 | --- |
 | [方向鍵版](https://samwhelp.github.io/note-about-leftwm/read/scenario/quick-switch-by-arrow-key) |
