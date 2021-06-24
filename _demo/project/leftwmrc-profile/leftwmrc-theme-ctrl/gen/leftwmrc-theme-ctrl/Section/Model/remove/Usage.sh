@@ -1,2 +1,2 @@
 
-		$ $cmd_name remove demo
+		$ $cmd_name remove dracula_rounded

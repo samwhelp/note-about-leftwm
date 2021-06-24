@@ -16,16 +16,11 @@ grand_parent: 專案
 
 ## Usage
 
-### fzf
-
-``` sh
-leftwmrc-theme-ctrl fzf
-```
 
 ### install
 
 ``` sh
-leftwmrc-theme-ctrl install demo https://github.com/lex148/forest.git
+leftwmrc-theme-ctrl install dracula_rounded https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git
 ```
 
 ### list
@@ -45,7 +40,7 @@ demo
 ### set
 
 ``` sh
-leftwmrc-theme-ctrl set demo
+leftwmrc-theme-ctrl set dracula_rounded
 ```
 
 
@@ -66,5 +61,19 @@ demo
 ### remove
 
 ``` sh
-leftwmrc-theme-ctrl remove demo
+leftwmrc-theme-ctrl remove dracula_rounded
+```
+
+
+### fzf
+
+``` sh
+leftwmrc-theme-ctrl fzf
+```
+
+
+### xephyr
+
+``` sh
+leftwmrc-theme-ctrl xephyr
 ```

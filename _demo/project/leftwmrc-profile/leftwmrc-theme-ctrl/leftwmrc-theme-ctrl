@@ -629,7 +629,7 @@ mod_leftwmrc_theme_set () {
 
 mod_leftwmrc_theme_install () {
 
-	## $ leftwmrc-theme-ctrl install demo https://github.com/lex148/forest.git
+	## $ leftwmrc-theme-ctrl install dracula_rounded https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git
 
 	local name="$1"
 	local repo_url="$2"
@@ -642,7 +642,7 @@ mod_leftwmrc_theme_install () {
 
 
 	echo "git clone --recursive $repo_url $name"
-	git clone --recursive "$repo_url" "$name" ## git clone https://github.com/lex148/forest.git demo
+	git clone --recursive "$repo_url" "$name" ## git clone https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git dracula_rounded
 
 	cd "$OLDPWD"
 
@@ -659,7 +659,7 @@ mod_leftwmrc_theme_install () {
 
 mod_leftwmrc_theme_remove () {
 
-	## $ leftwmrc-theme-ctrl remove demo
+	## $ leftwmrc-theme-ctrl remove dracula_rounded
 
 	local name="$1"
 	#echo $name
@@ -813,9 +813,9 @@ Example:
 
 		$ $cmd_name set demo
 
-		$ $cmd_name install demo https://github.com/lex148/forest.git
+		$ $cmd_name install dracula_rounded https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git
 
-		$ $cmd_name remove demo
+		$ $cmd_name remove dracula_rounded
 
 
 Debug:

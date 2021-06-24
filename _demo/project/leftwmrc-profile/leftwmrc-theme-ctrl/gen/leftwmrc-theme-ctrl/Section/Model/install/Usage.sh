@@ -1,2 +1,2 @@
 
-		$ $cmd_name install demo https://github.com/lex148/forest.git
+		$ $cmd_name install dracula_rounded https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git

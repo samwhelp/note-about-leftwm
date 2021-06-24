@@ -6,7 +6,7 @@
 
 mod_leftwmrc_theme_install () {
 
-	## $ leftwmrc-theme-ctrl install demo https://github.com/lex148/forest.git
+	## $ leftwmrc-theme-ctrl install dracula_rounded https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git
 
 	local name="$1"
 	local repo_url="$2"
@@ -19,7 +19,7 @@ mod_leftwmrc_theme_install () {
 
 
 	echo "git clone --recursive $repo_url $name"
-	git clone --recursive "$repo_url" "$name" ## git clone https://github.com/lex148/forest.git demo
+	git clone --recursive "$repo_url" "$name" ## git clone https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git dracula_rounded
 
 	cd "$OLDPWD"
 

@@ -6,7 +6,7 @@
 
 mod_leftwmrc_theme_remove () {
 
-	## $ leftwmrc-theme-ctrl remove demo
+	## $ leftwmrc-theme-ctrl remove dracula_rounded
 
 	local name="$1"
 	#echo $name
