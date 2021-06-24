@@ -29,6 +29,7 @@
 | --- |
 | [設定](https://samwhelp.github.io/note-about-leftwm/read/config.html) |
 | [我的鍵盤按鍵綁定](https://samwhelp.github.io/note-about-leftwm/read/config/keybind.html) |
+| [佈景主題安裝採用](https://samwhelp.github.io/note-about-leftwm/read/config/theme.html) |
 
 
 ### 專案

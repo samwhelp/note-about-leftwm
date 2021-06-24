@@ -31,4 +31,5 @@ curl -fLo ~/.config/leftwm/config.toml --create-dirs \
 
 | 我的設定 |
 | --- |
+| [佈景主題](config/theme) |
 | [鍵盤按鍵綁定](config/keybind) |
