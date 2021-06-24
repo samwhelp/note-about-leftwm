@@ -22,7 +22,7 @@ grand_parent: 專案
 | [all](#all) | 安裝以下所有的「theme」| |
 | [dracula_rounded](#dracula_rounded) | [Dracula Rounded](https://github.com/AethanFoot/leftwm-theme-dracula-rounded/) | ~/.config/leftwm/themes/dracula_rounded |
 | [blue_coffee](#blue_coffee) | [Blue Coffee](https://github.com/Qwart376/Blue-Coffee/) | ~/.config/leftwm/themes/blue_coffee |
-| [bumblebee](#bumblebee) | [bumblebee](https://github.com/mfdorst/leftwm-bumblebee) | ~/.config/leftwm/themes/bumblebee |
+| [bumblebee](#bumblebee) | [Bumblebee](https://github.com/mfdorst/leftwm-bumblebee) | ~/.config/leftwm/themes/bumblebee |
 | [changed_sunset](#changed_sunset) | [Changed Sunset](https://github.com/Syudagye/changed-sunset/) | ~/.config/leftwm/themes/changed_sunset |
 | [coffee](#coffee) | [Coffee](https://github.com/lex148/leftwm-coffee/) | ~/.config/leftwm/themes/coffee |
 | [forest](#forest) | [Forest](https://github.com/lex148/forest/) | ~/.config/leftwm/themes/forest |
