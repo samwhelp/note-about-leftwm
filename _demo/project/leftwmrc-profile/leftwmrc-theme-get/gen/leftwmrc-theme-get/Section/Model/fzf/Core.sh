@@ -28,7 +28,6 @@ local selected=$(fzf << EOF
 all
 dracula_rounded
 blue_coffee
-blue_coffee
 bumblebee
 changed_sunset
 coffee

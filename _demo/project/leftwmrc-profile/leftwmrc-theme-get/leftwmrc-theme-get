@@ -418,7 +418,6 @@ local selected=$(fzf << EOF
 all
 dracula_rounded
 blue_coffee
-blue_coffee
 bumblebee
 changed_sunset
 coffee
@@ -458,7 +457,6 @@ main_run_sub_cmd "$selected"
 mod_all_install () {
 
 	mod_dracula_rounded_install
-	mod_blue_coffee_install
 	mod_blue_coffee_install
 	mod_bumblebee_install
 	mod_changed_sunset_install
