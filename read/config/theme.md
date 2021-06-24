@@ -46,7 +46,9 @@ ln -sf current dracula_rounded
 
 也就是建立「~/.config/leftwm/themes/current」。
 
-要注意「佈景主題」資料夾，需要有兩個可執行檔案「[up](https://github.com/AethanFoot/leftwm-theme-dracula-rounded/blob/master/up)」和「[down](https://github.com/AethanFoot/leftwm-theme-dracula-rounded/blob/master/down)」，相關說明可以在「leftwm / Wiki / Themes / [Requirements for a theme](https://github.com/leftwm/leftwm/wiki/Themes#requirements-for-a-theme)」找到。
+要注意「佈景主題」資料夾，需要有兩個可執行檔案「[up](https://github.com/AethanFoot/leftwm-theme-dracula-rounded/blob/master/up)」和「[down](https://github.com/AethanFoot/leftwm-theme-dracula-rounded/blob/master/down)」，
+
+相關說明可以在「leftwm / Wiki / Themes / [Requirements for a theme](https://github.com/leftwm/leftwm/wiki/Themes#requirements-for-a-theme)」找到。
 
 ### 採用系統自帶的佈景主體
 
@@ -62,7 +64,10 @@ ln -sf current /usr/share/leftwm/themes/basic_polybar
 ## leftwm-theme輔助安裝
 
 透過「[leftwm-theme](https://github.com/leftwm/leftwm-theme)」這個指令， 來輔助安裝「佈景主題」，
+
 相關的「佈景主題」，可以到「[LeftWM Community Themes](https://github.com/leftwm/leftwm-community-themes)」找到連結。
+
+或是也可以參考我自己整理的[列表](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-get.html#%E4%BD%BF%E7%94%A8%E7%AF%84%E4%BE%8B)。
 
 
 ## leftwmrc-theme-get輔助安裝
