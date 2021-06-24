@@ -8,7 +8,7 @@ parent: 專案
 
 # 快速切換 (kjhl版)
 
-* 對照「[方向鍵版](quick-switch-by-arrow-key)版」。
+* 對照「[方向鍵](quick-switch-by-arrow-key)版」。
 
 
 ## 按鍵功能導向

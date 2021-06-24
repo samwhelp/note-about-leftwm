@@ -6,10 +6,10 @@ parent: 專案
 ---
 
 
-# 快速切換 (數字版)
+# 快速切換 (數字鍵版)
 
-* 對照「[方向鍵版](quick-switch-by-arrow-key)版」。
-* 對照「[kjhl版](quick-switch-by-kjhl-key)版」。
+* 對照「[方向鍵](quick-switch-by-arrow-key)版」。
+* 對照「[kjhl](quick-switch-by-kjhl-key)版」。
 
 
 ## 按鍵功能導向
