@@ -1,7 +1,7 @@
 ---
 title: 其他視窗操作
 nav_order: 5053
-has_children: true
+has_children: false
 parent: 使用情境
 ---
 

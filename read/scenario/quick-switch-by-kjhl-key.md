@@ -1,7 +1,7 @@
 ---
 title: 快速切換 (kjhl版)
 nav_order: 5051
-has_children: true
+has_children: false
 parent: 使用情境
 ---
 

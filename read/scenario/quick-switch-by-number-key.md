@@ -1,7 +1,7 @@
 ---
 title: 快速切換 (數字鍵版)
 nav_order: 5052
-has_children: true
+has_children: false
 parent: 使用情境
 ---
 
