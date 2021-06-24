@@ -8,8 +8,6 @@ parent: 使用情境
 
 # 快速切換 (單手版)
 
-* 對照「[方向鍵](quick-switch-by-arrow-key)版」。
-* 對照「[kjhl](quick-switch-by-kjhl-key)版」。
 
 
 ## 按鍵功能導向
@@ -45,3 +43,11 @@ parent: 使用情境
 | `Alt + a` | 切換到上一個 Tag |
 | `Alt + s` | 切換到下一個 Tag |
 | `Alt + z` | 切換到最近使用過的 Tag |
+
+
+## 對照
+
+| 對照 |
+| --- |
+| [方向鍵版](quick-switch-by-arrow-key) |
+| [kjhl版](quick-switch-by-kjhl-key) |

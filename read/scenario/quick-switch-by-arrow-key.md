@@ -8,8 +8,6 @@ parent: 使用情境
 
 # 快速切換 (方向鍵版)
 
-* 對照「[kjhl](quick-switch-by-kjhl-key)版」。
-
 
 ## 按鍵功能導向
 
@@ -57,3 +55,10 @@ parent: 使用情境
 | --- | --- |
 | `Alt + Ctrl + Up` | 對「主要 Layout 視窗」增加寬度 |
 | `Alt + Ctrl + Down` | 對「主要 Layout 視窗」減少寬度 |
+
+
+## 對照
+
+| 對照 |
+| --- |
+| [kjhl版](quick-switch-by-kjhl-key) |

@@ -8,8 +8,6 @@ parent: 使用情境
 
 # 快速切換 (kjhl版)
 
-* 對照「[方向鍵](quick-switch-by-arrow-key)版」。
-
 
 ## 按鍵功能導向
 
@@ -63,3 +61,10 @@ parent: 使用情境
 | --- | --- |
 | `Alt + k` | 切換到上一個 Layout |
 | `Alt + j` | 切換到下一個 Layout |
+
+
+## 對照
+
+| 對照 |
+| --- |
+| [方向鍵版](quick-switch-by-arrow-key) |

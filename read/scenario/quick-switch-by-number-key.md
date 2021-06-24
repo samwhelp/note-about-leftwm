@@ -8,9 +8,6 @@ parent: 使用情境
 
 # 快速切換 (數字鍵版)
 
-* 對照「[方向鍵](quick-switch-by-arrow-key)版」。
-* 對照「[kjhl](quick-switch-by-kjhl-key)版」。
-
 
 ## 按鍵功能導向
 
@@ -54,3 +51,12 @@ parent: 使用情境
 | `Win + 3` | 將目前聚焦的 Window 移動到 Tag 3 (Web) |
 | `Win + 4` | 將目前聚焦的 Window 移動到 Tag 4 (File) |
 | `Win + 5` | 將目前聚焦的 Window 移動到 Tag 5 (Misc) |
+
+
+
+## 對照
+
+| 對照 |
+| --- |
+| [方向鍵版](quick-switch-by-arrow-key) |
+| [kjhl版](quick-switch-by-kjhl-key) |
