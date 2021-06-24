@@ -20,14 +20,14 @@ has_children: true
 
 ## 如何安裝
 
-執行下面指令
+執行下面指令，安裝我的設定檔到「~/.config/leftwm/config.toml」。
 
 ``` sh
 curl -fLo ~/.config/leftwm/config.toml --create-dirs \
 	'https://raw.githubusercontent.com/samwhelp/note-about-leftwm/gh-pages/_demo/config/main/config/leftwm/config.toml'
 ```
 
-## 我的設定
+## 我的設定說明
 
 | 我的設定 |
 | --- |
