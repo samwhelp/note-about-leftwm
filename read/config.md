@@ -17,6 +17,10 @@ has_children: true
 | [我的設定](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/main/config/leftwm/config.toml)
 | [系統預設](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/default/config/leftwm/config.toml) |
 
+## 設定檔文件說明
+
+* leftwm / Wiki / [Config](https://github.com/leftwm/leftwm/wiki/Config)
+
 
 ## 如何安裝
 
