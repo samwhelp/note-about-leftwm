@@ -15,7 +15,7 @@
 * [設定](#設定)
 * [使用情境](#使用情境)
 * [專案](#專案)
-
+* [注意事項](#注意事項)
 
 ### 入門
 
@@ -66,7 +66,7 @@
 
 | 音量控制 |
 | --- |
-| [音量控制](https://samwhelp.github.io/note-about-leftwm/read/scenario/scenario/volume-control) |
+| [音量控制](https://samwhelp.github.io/note-about-leftwm/read/scenario/volume-control) |
 
 
 ## 注意事項
