@@ -2,7 +2,7 @@
 title: 快速切換 (方向鍵版)
 nav_order: 5050
 has_children: true
-parent: 專案
+parent: 使用情境
 ---
 
 

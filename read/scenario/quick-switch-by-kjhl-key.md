@@ -2,7 +2,7 @@
 title: 快速切換 (kjhl版)
 nav_order: 5051
 has_children: true
-parent: 專案
+parent: 使用情境
 ---
 
 

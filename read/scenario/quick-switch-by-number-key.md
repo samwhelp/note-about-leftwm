@@ -1,8 +1,8 @@
 ---
 title: 快速切換 (數字鍵版)
-nav_order: 5051
+nav_order: 5052
 has_children: true
-parent: 專案
+parent: 使用情境
 ---
 
 
@@ -34,7 +34,7 @@ parent: 專案
 
 ### 切換 Tag
 
-| Key | Description |
+| 按鍵組合 | 功能 |
 | --- | --- |
 | `Alt + 1` | 切換到 Tag 1 (Term) |
 | `Alt + 2` | 切換到 Tag 2 (Edit) |
@@ -47,7 +47,7 @@ parent: 專案
 
 ### 將 Window 移動到 指定 Tag
 
-| Key | Description |
+| 按鍵組合 | 功能 |
 | --- | --- |
 | `Win + 1` | 將目前聚焦的 Window 移動到 Tag 1 (Term) |
 | `Win + 2` | 將目前聚焦的 Window 移動到 Tag 2 (Edit) |
