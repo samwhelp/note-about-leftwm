@@ -6,11 +6,16 @@ has_children: true
 
 # 使用情境
 
+
 ## 開啟應用程式
 
 | 主題 |
 | --- |
 | [開啟 Terminal](scenario/launch-terminal) |
+| [開啟 Rofi](scenario/launch-rofi) |
+| [開啟 Dmenu](scenario/launch-dmenu) |
+| [開啟常用的應用程式](scenario/launch-favorite-app) |
+
 
 ## 快速切換
 
