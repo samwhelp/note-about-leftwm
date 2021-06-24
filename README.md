@@ -57,3 +57,8 @@
 | [數字鍵版](https://samwhelp.github.io/note-about-leftwm/read/scenario/quick-switch-by-number-key) |
 | [單手版(左手)](https://samwhelp.github.io/note-about-leftwm/read/scenario/quick-switch-by-single-hand) |
 | [其他視窗操作](https://samwhelp.github.io/note-about-leftwm/read/scenario/window-control) |
+
+
+| 系統操作 |
+| --- |
+| [系統操作](https://samwhelp.github.io/note-about-leftwm/read/scenario/system-control) |

@@ -26,3 +26,10 @@ has_children: true
 | [數字鍵版](scenario/quick-switch-by-number-key) |
 | [單手版(左手)](scenario/quick-switch-by-single-hand) |
 | [其他視窗操作](scenario/window-control) |
+
+
+## 系統操作
+
+| 主題 |
+| --- |
+| [系統操作](scenario/system-control) |
