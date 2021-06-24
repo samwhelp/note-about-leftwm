@@ -6,7 +6,7 @@ parent: 專案
 ---
 
 
-# 快速切換 (kjhl)
+# 快速切換 (kjhl版)
 
 * 對照「[方向鍵版](quick-switch-by-arrow-key)版」。
 
