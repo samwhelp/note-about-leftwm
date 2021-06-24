@@ -13,6 +13,7 @@
 
 * [入門](#入門)
 * [設定](#設定)
+* [使用情境](#使用情境)
 * [專案](#專案)
 
 
@@ -27,9 +28,9 @@
 
 | 議題 |
 | --- |
-| [設定](https://samwhelp.github.io/note-about-leftwm/read/config.html) |
-| [我的鍵盤按鍵綁定](https://samwhelp.github.io/note-about-leftwm/read/config/keybind.html) |
+| [設定檔路徑](https://samwhelp.github.io/note-about-leftwm/read/config.html) |
 | [佈景主題安裝採用](https://samwhelp.github.io/note-about-leftwm/read/config/theme.html) |
+| [我的鍵盤按鍵綁定](https://samwhelp.github.io/note-about-leftwm/read/config/keybind.html) |
 
 
 ### 專案
@@ -38,3 +39,9 @@
 | --- | --- |
 | [leftwmrc-theme-get](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-get.html) | 用來輔助「安裝」佈景主題 |
 | [leftwmrc-theme-ctrl](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-ctrl.html) | 用來輔助「切換」佈景主題 |
+
+### 使用情境
+
+| 情境 |
+| --- |
+| [使用情境](https://samwhelp.github.io/note-about-leftwm/read/scenario.html) |
