@@ -22,6 +22,14 @@
 | [入門](https://samwhelp.github.io/note-about-leftwm/read/start.html) |
 
 
+### 設定
+
+| 議題 |
+| --- |
+| [設定](https://samwhelp.github.io/note-about-leftwm/read/config.html) |
+| [我的鍵盤按鍵綁定](https://samwhelp.github.io/note-about-leftwm/read/config/keybind.html) |
+
+
 ### 專案
 
 | 工具 | 簡介 |
