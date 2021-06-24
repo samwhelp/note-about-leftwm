@@ -67,3 +67,10 @@
 | 音量控制 |
 | --- |
 | [音量控制](https://samwhelp.github.io/note-about-leftwm/read/scenario/scenario/volume-control) |
+
+
+## 注意事項
+
+| 注意事項 |
+| --- |
+| [autostart](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/leftwm.html#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85) |
