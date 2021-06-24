@@ -338,9 +338,9 @@ util_self_actions () {
 
 is_leftwmrc_theme_dir () {
 	local dir_path="$1"
-	local leftwmrc_theme_file_path="$dir_path/theme.toml" ## ~/.config/leftwm/themes/demo/theme.toml
+	local leftwmrc_theme_file_path="$dir_path/up" ## ~/.config/leftwm/themes/demo/up
 
-	if [ ! -f "$leftwmrc_theme_file_path" ]; then ## check ~/.config/leftwm/themes/demo/theme.toml
+	if [ ! -f "$leftwmrc_theme_file_path" ]; then ## check ~/.config/leftwm/themes/demo/up
 		return 1
 	fi
 
@@ -349,9 +349,9 @@ is_leftwmrc_theme_dir () {
 
 is_not_leftwmrc_theme_dir () {
 	local dir_path="$1"
-	local leftwmrc_theme_file_path="$dir_path/theme.toml" ## ~/.config/leftwm/themes/demo/theme.toml
+	local leftwmrc_theme_file_path="$dir_path/up" ## ~/.config/leftwm/themes/demo/up
 
-	if [ -f "$leftwmrc_theme_file_path" ]; then ## check ~/.config/leftwm/themes/demo/theme.toml
+	if [ -f "$leftwmrc_theme_file_path" ]; then ## check ~/.config/leftwm/themes/demo/up
 		return 1
 	fi
 
