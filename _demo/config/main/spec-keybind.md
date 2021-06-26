@@ -141,7 +141,6 @@
 | Key | Description |
 | --- | --- |
 | `Win + q` | Window Close |
-| `Alt + F4` | Window Close |
 
 ### Window FullScreen
 

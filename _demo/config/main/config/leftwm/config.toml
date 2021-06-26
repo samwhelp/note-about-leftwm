@@ -537,10 +537,10 @@ key = "q"
 
 ## Window Close
 ## Alt + F4
-[[keybind]]
-command = "CloseWindow"
-modifier = ["Mod1"]
-key = "F4"
+#  [[keybind]]
+#  command = "CloseWindow"
+#  modifier = ["Mod1"]
+#  key = "F4"
 
 ##
 ### Tail: Keybind / Window / Close
