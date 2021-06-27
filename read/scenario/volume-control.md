@@ -23,8 +23,8 @@ parent: 使用情境
 | --- | --- |
 | `Alt + Shitf + ,` | 降低音量 |
 | `Alt + Shitf + .` | 加大音量 |
-| `Alt + Ctrl + ,` | 降低音量 Slowly |
-| `Alt + Ctrl + .` | 加大音量 Slowly |
+| `Alt + Ctrl + ,` | 緩慢地降低音量 |
+| `Alt + Ctrl + .` | 緩慢地加大音量 |
 
 
 
