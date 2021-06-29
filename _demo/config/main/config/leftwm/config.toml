@@ -242,7 +242,7 @@ modifier = ["Mod1", "Shift"]
 key = "f"
 
 ## Launch File Manager (thunar)
-## Alt + Shift + f
+## Alt + Shift + g
 [[keybind]]
 command = "Execute"
 value = "thunar"
@@ -816,7 +816,7 @@ modifier = ["Mod1", "Shift"]
 key = "period"
 
 ## VolumeDecreaseSlowly
-## Alt + Ctrl + .  (>)
+## Alt + Ctrl + ,  (<)
 [[keybind]]
 command = "Execute"
 value = "amixer -q -D pulse sset Master 1%- unmute"
@@ -834,7 +834,7 @@ key = "period"
 ## XF86Audio Key ##
 
 ## VolumeToggleMute
-## Alt + m
+## XF86AudioMute
 [[keybind]]
 command = "Execute"
 value = "amixer -q -D pulse sset Master toggle"
@@ -842,7 +842,7 @@ modifier = []
 key = "XF86AudioMute"
 
 ## VolumeDecrease
-## Alt + Shift + ,  (<)
+## XF86AudioLowerVolume
 [[keybind]]
 command = "Execute"
 value = "amixer -q -D pulse sset Master 5%- unmute"
@@ -850,7 +850,7 @@ modifier = []
 key = "XF86AudioLowerVolume"
 
 ## VolumeIncrease
-## Alt + Shift + .  (>)
+## XF86AudioRaiseVolume
 [[keybind]]
 command = "Execute"
 value = "amixer -q -D pulse sset Master 5%+ unmute"
