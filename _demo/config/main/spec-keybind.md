@@ -112,11 +112,15 @@
 | `Alt + [1-5]` | Switch to Specific Tag |
 | `Win + [1-5]` | Move Focused Window to Specific Tag |
 
+
+| Key | Description |
+| --- | --- |
+| `Alt + z` | Switch to Perior Tag |
+
 | Key | Description |
 | --- | --- |
 | `Alt + a` | Switch to Previous Tag |
 | `Alt + s` | Switch to Next Tag |
-| `Alt + z` | Switch to Perior Tag |
 
 | Key | Description |
 | --- | --- |
@@ -125,13 +129,13 @@
 
 | Key | Description |
 | --- | --- |
-| `Alt + [` | Switch to Previous Tag |
-| `Alt + ]` | Switch to Next Tag |
+| `Alt + Left` | Switch to Previous Tag |
+| `Alt + Right` | Switch to Next Tag |
 
 | Key | Description |
 | --- | --- |
-| `Alt + Left` | Switch to Previous Tag |
-| `Alt + Right` | Switch to Next Tag |
+| `Alt + [` | Switch to Previous Tag |
+| `Alt + ]` | Switch to Next Tag |
 
 
 ## Window
@@ -162,20 +166,23 @@
 
 | Key | Description |
 | --- | --- |
-| `Win + [` | Focus to Previous Window |
-| `Win + ]` | Focus to Next Window |
-
-| Key | Description |
-| --- | --- |
 | `Win + Left` | Focus to Previous Window |
 | `Win + Right` | Focus to Next Window |
+
 
 ### Window Swap
 
 | Key | Description |
 | --- | --- |
 | `Win + Enter` | Swap Focused Window To Top (Stack Order) |
-| `Win + Tab` | Swap Focused Window To Top (Stack Order) |
+| `Win + b` | Swap Focused Window To Top (Stack Order) |
+
+| Key | Description |
+| --- | --- |
+| `Win + grave` | Swap Focused Window To Up (Stack Order) |
+| `Win + Tab` | Swap Focused Window To Down (Stack Order) |
+
+> grave means `
 
 | Key | Description |
 | --- | --- |
@@ -191,10 +198,9 @@
 
 | Key | Description |
 | --- | --- |
-| `Win + grave` | Window Floating To Tile |
+| `Win + v` | Window Floating To Tile |
 | `Win + Shift + t` | Window Floating To Tile |
 
-> grave means `
 
 ## Layout
 
@@ -206,11 +212,6 @@
 | `Alt + Tab` | Switch To Next Layout |
 
 > grave means `
-
-| Key | Description |
-| --- | --- |
-| `Alt + ;` | Switch To Previous Layout |
-| `Alt + '` | Switch To Next Layout |
 
 | Key | Description |
 | --- | --- |

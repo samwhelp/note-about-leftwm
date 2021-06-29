@@ -27,14 +27,11 @@ parent: 使用情境
 
 | 按鍵組合 | 功能 |
 | --- | --- |
-| `Win + Tab` | 將目前聚焦的視窗，放到主要Layout位置 |
+| `Win + b` | 將目前聚焦的視窗，放到主要Layout位置 |
 
 
 ## 從Floating切換到Tile
 
 | 按鍵組合 | 功能 |
 | --- | --- |
-| `Win + grave` | 將目前聚焦的視窗，從Floating切換到Tile |
-
-
-> grave 指的是 `
+| `Win + v` | 將目前聚焦的視窗，從Floating切換到Tile |

@@ -576,9 +576,23 @@ modifier = ["Mod4"]
 key = "Return"
 
 ## Swap Focused Window To Top (moves to the top of the stack)
-## Win + Tab
+## Win + b
 [[keybind]]
 command = "MoveWindowTop"
+modifier = ["Mod4"]
+key = "b"
+
+## Swap Focused Window To Up
+## Win + `
+[[keybind]]
+command = "MoveWindowUp"
+modifier = ["Mod4"]
+key = "grave"
+
+## Swap Focused Window To Down
+## Win + Tab
+[[keybind]]
+command = "MoveWindowDown"
 modifier = ["Mod4"]
 key = "Tab"
 
@@ -648,20 +662,6 @@ modifier = ["Mod4"]
 key = "l"
 
 ## Focus to Previous Window
-## Alt + [
-[[keybind]]
-command = "FocusWindowUp"
-modifier = ["Mod4"]
-key = "bracketleft"
-
-## Focus to Next Window
-## Alt + ]
-[[keybind]]
-command = "FocusWindowDown"
-modifier = ["Mod4"]
-key = "bracketright"
-
-## Focus to Previous Window
 ## Alt + Left
 [[keybind]]
 command = "FocusWindowUp"
@@ -685,11 +685,11 @@ key = "Right"
 ##
 
 ## Window Floating To Tile
-## Win + `
+## Win + v
 [[keybind]]
 command = "FloatingToTile"
 modifier = ["Mod4"]
-key = "grave"
+key = "v"
 
 ## Window Floating To Tile
 ## Win + Shift + t
@@ -720,20 +720,6 @@ key = "grave"
 command = "NextLayout"
 modifier = ["Mod1"]
 key = "Tab"
-
-## Switch To Previous Layout
-## Alt + ;
-[[keybind]]
-command = "PreviousLayout"
-modifier = ["Mod1"]
-key = "semicolon"
-
-## Switch To Next Layout
-## Alt + '
-[[keybind]]
-command = "NextLayout"
-modifier = ["Mod1"]
-key = "apostrophe"
 
 ## Switch To Previous Layout
 ## Alt + k
