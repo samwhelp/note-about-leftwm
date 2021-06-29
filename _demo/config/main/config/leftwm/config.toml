@@ -576,11 +576,11 @@ modifier = ["Mod4"]
 key = "Return"
 
 ## Swap Focused Window To Top (moves to the top of the stack)
-## Win + w
+## Win + Tab
 [[keybind]]
 command = "MoveWindowTop"
 modifier = ["Mod4"]
-key = "w"
+key = "Tab"
 
 ## Swap Focused Window To Up
 ## Win + k
@@ -685,11 +685,11 @@ key = "Right"
 ##
 
 ## Window Floating To Tile
-## Win + Tab
+## Win + `
 [[keybind]]
 command = "FloatingToTile"
 modifier = ["Mod4"]
-key = "Tab"
+key = "grave"
 
 ## Window Floating To Tile
 ## Win + Shift + t

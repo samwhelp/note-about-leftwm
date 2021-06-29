@@ -175,7 +175,7 @@
 | Key | Description |
 | --- | --- |
 | `Win + Enter` | Swap Focused Window To Top (Stack Order) |
-| `Win + w` | Swap Focused Window To Top (Stack Order) |
+| `Win + Tab` | Swap Focused Window To Top (Stack Order) |
 
 | Key | Description |
 | --- | --- |
@@ -191,9 +191,10 @@
 
 | Key | Description |
 | --- | --- |
-| `Win + Tab` | Window Floating To Tile |
+| `Win + grave` | Window Floating To Tile |
 | `Win + Shift + t` | Window Floating To Tile |
 
+> grave means `
 
 ## Layout
 
