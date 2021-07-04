@@ -19,7 +19,8 @@ has_children: true
 
 ## Manjaro
 
-manjaro 探索筆記 / [leftwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/leftwm.html)
+* manjaro 探索筆記 / [leftwm](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/leftwm.html)
+* manjaro 探索筆記 / [picom](https://samwhelp.github.io/note-about-manjaro/read/adjustment/tool/picom.html)
 
 
 ## Just the Docs
