@@ -580,7 +580,7 @@ key = "Return"
 [[keybind]]
 command = "MoveWindowTop"
 modifier = ["Mod4"]
-key = "b"
+key = "m"
 
 ## Swap Focused Window To Up
 ## Win + `
@@ -689,7 +689,7 @@ key = "Right"
 [[keybind]]
 command = "FloatingToTile"
 modifier = ["Mod4"]
-key = "v"
+key = "n"
 
 ## Window Floating To Tile
 ## Win + Shift + t

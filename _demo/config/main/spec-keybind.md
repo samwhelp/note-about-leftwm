@@ -175,7 +175,7 @@
 | Key | Description |
 | --- | --- |
 | `Win + Enter` | Swap Focused Window To Top (Stack Order) |
-| `Win + b` | Swap Focused Window To Top (Stack Order) |
+| `Win + m` | Swap Focused Window To Top (Stack Order) |
 
 | Key | Description |
 | --- | --- |
@@ -198,7 +198,7 @@
 
 | Key | Description |
 | --- | --- |
-| `Win + v` | Window Floating To Tile |
+| `Win + n` | Window Floating To Tile |
 | `Win + Shift + t` | Window Floating To Tile |
 
 
