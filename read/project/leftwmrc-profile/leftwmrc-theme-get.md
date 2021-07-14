@@ -32,6 +32,7 @@ grand_parent: 專案
 | [soothe](#soothe) | [Soothe](https://github.com/b4skyx/leftwm-soothe/) | ~/.config/leftwm/themes/soothe |
 | [tng](#tng) | [TNG](https://github.com/lex148/leftwm-tng/) | ~/.config/leftwm/themes/tng |
 | [windowsxp](#windowsxp) | [windowsxp](https://github.com/lex148/leftwm-windowsxp/) | ~/.config/leftwm/themes/windowsxp |
+| [garden](#garden) | [Garden](https://github.com/taylor85345/leftwm-theme-garden) | ~/.config/leftwm/themes/garden |
 
 
 ### fzf
@@ -140,8 +141,16 @@ leftwmrc-theme-get tng
 
 ### windowsxp
 
-執行下面指令，單一安裝「theme / [windowsxp](ttps://github.com/lex148/leftwm-windowsxp/)」
+執行下面指令，單一安裝「theme / [windowsxp](https://github.com/lex148/leftwm-windowsxp/)」
 
 ``` sh
 leftwmrc-theme-get windowsxp
+```
+
+### garden
+
+執行下面指令，單一安裝「theme / [garden](https://github.com/taylor85345/leftwm-theme-garden)」
+
+``` sh
+leftwmrc-theme-get garden
 ```

@@ -38,6 +38,7 @@ red_moon
 soothe
 tng
 windowsxp
+garden
 EOF
 )
 

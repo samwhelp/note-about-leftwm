@@ -11,3 +11,4 @@
 <?php include_once(__DIR__ . '/theme_tng/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_windowsxp/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_coffee/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_garden/Usage.sh'); ?>

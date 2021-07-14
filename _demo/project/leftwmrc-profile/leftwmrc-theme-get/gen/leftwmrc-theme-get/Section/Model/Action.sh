@@ -12,3 +12,4 @@
 <?php include_once(__DIR__ . '/theme_tng/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_windowsxp/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_coffee/Action.sh'); ?>
+<?php include_once(__DIR__ . '/theme_garden/Action.sh'); ?>
