@@ -17,3 +17,5 @@ parent: 專案
 
 * [leftwmrc-theme-get](leftwmrc-theme-get)
 * [leftwmrc-theme-ctrl](leftwmrc-theme-ctrl)
+* [leftwmrc-get](leftwmrc-get)
+* [leftwmrc-ctrl](leftwmrc-ctrl)

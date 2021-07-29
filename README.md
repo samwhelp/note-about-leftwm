@@ -40,6 +40,12 @@
 | [leftwmrc-theme-get](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-get.html) | 用來輔助「安裝」佈景主題 |
 | [leftwmrc-theme-ctrl](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-ctrl.html) | 用來輔助「切換」佈景主題 |
 
+| 工具 | 簡介 |
+| --- | --- |
+| [leftwmrc-get](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-get.html) | 用來輔助「安裝」leftwm config |
+| [leftwmrc-ctrl](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-ctrl.html) | 用來輔助「切換」leftwm config |
+
+
 ### 使用情境
 
 | 開啟應用程式 |
