@@ -1,6 +1,6 @@
 ---
 title: leftwmrc-ctrl
-nav_order: 8012
+nav_order: 8022
 has_children: false
 parent: leftwmrc-profile
 grand_parent: 專案
