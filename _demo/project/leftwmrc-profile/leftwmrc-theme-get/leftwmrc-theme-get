@@ -420,6 +420,7 @@ fi
 local selected=$(fzf << EOF
 all
 dracula_rounded
+amber
 blue_coffee
 bumblebee
 changed_sunset
@@ -461,6 +462,7 @@ main_run_sub_cmd "$selected"
 mod_all_install () {
 
 	mod_dracula_rounded_install
+	mod_amber_install
 	mod_blue_coffee_install
 	mod_bumblebee_install
 	mod_changed_sunset_install
@@ -847,6 +849,24 @@ mod_garden_install () {
 
 
 ################################################################################
+### Head: Model amber
+##
+
+mod_amber_install () {
+
+	## https://github.com/di-effe/amber
+
+	echo
+	leftwmrc_theme_repo_clone 'amber' 'https://github.com/di-effe/amber.git'
+	echo
+}
+
+##
+### Tail: Model amber
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -957,6 +977,12 @@ sub_run_garden () {
 	mod_garden_install "$@"
 }
 
+
+sub_run_amber () {
+	#echo "sub_run_amber"
+	mod_amber_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -1026,6 +1052,8 @@ Example:
 		$ $cmd_name coffee
 
 		$ $cmd_name garden
+
+		$ $cmd_name amber
 
 
 Debug:
