@@ -35,7 +35,7 @@ grand_parent: 專案
 | [garden](#garden) | [Garden](https://github.com/taylor85345/leftwm-theme-garden) | ~/.config/leftwm/themes/garden |
 | [amber](#amber) | [Amber](https://github.com/di-effe/amber) | ~/.config/leftwm/themes/amber |
 | [catppuccin](#catppuccin) | [Catppuccin](https://github.com/di-effe/catppuccin) | ~/.config/leftwm/themes/catppuccin |
-| [vacation](#vacation) | [Vacation](https://github.com/di-effe/vacation) | ~/.config/leftwm/themes/vacation |
+| [vacation](#vacation) | [Vacation](https://github.com/PeterDauwe/db-vacation) | ~/.config/leftwm/themes/vacation |
 
 
 ### fzf
