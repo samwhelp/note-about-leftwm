@@ -434,6 +434,7 @@ windowsxp
 garden
 amber
 catppuccin
+vacation
 EOF
 )
 
@@ -477,6 +478,7 @@ mod_all_install () {
 	mod_soothe_install
 	mod_tng_install
 	mod_windowsxp_install
+	mod_vacation_install
 
 }
 
@@ -888,6 +890,24 @@ mod_catppuccin_install () {
 
 
 ################################################################################
+### Head: Model vacation
+##
+
+mod_vacation_install () {
+
+	## https://github.com/PeterDauwe/db-vacation
+
+	echo
+	leftwmrc_theme_repo_clone 'vacation' 'https://github.com/PeterDauwe/db-vacation.git'
+	echo
+}
+
+##
+### Tail: Model vacation
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -1010,6 +1030,12 @@ sub_run_catppuccin () {
 	mod_catppuccin_install "$@"
 }
 
+
+sub_run_vacation () {
+	#echo "sub_run_vacation"
+	mod_vacation_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -1083,6 +1109,8 @@ Example:
 		$ $cmd_name amber
 
 		$ $cmd_name catppuccin
+
+		$ $cmd_name vacation
 
 
 Debug:

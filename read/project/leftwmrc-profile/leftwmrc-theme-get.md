@@ -34,7 +34,8 @@ grand_parent: 專案
 | [windowsxp](#windowsxp) | [windowsxp](https://github.com/lex148/leftwm-windowsxp/) | ~/.config/leftwm/themes/windowsxp |
 | [garden](#garden) | [Garden](https://github.com/taylor85345/leftwm-theme-garden) | ~/.config/leftwm/themes/garden |
 | [amber](#amber) | [Amber](https://github.com/di-effe/amber) | ~/.config/leftwm/themes/amber |
-| [amber](#amber) | [Catppuccin](https://github.com/di-effe/catppuccin) | ~/.config/leftwm/themes/catppuccin |
+| [catppuccin](#catppuccin) | [Catppuccin](https://github.com/di-effe/catppuccin) | ~/.config/leftwm/themes/catppuccin |
+| [vacation](#vacation) | [Vacation](https://github.com/di-effe/vacation) | ~/.config/leftwm/themes/vacation |
 
 
 ### fzf
@@ -171,4 +172,12 @@ leftwmrc-theme-get amber
 
 ``` sh
 leftwmrc-theme-get catppuccin
+```
+
+### Vacation
+
+執行下面指令，單一安裝「theme / [vacation](https://github.com/PeterDauwe/db-vacation)」
+
+``` sh
+leftwmrc-theme-get vacation
 ```

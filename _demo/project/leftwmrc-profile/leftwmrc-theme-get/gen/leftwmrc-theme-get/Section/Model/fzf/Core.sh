@@ -41,6 +41,7 @@ windowsxp
 garden
 amber
 catppuccin
+vacation
 EOF
 )
 
