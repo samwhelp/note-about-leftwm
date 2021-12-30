@@ -33,6 +33,7 @@ grand_parent: 專案
 | [tng](#tng) | [TNG](https://github.com/lex148/leftwm-tng/) | ~/.config/leftwm/themes/tng |
 | [windowsxp](#windowsxp) | [windowsxp](https://github.com/lex148/leftwm-windowsxp/) | ~/.config/leftwm/themes/windowsxp |
 | [garden](#garden) | [Garden](https://github.com/taylor85345/leftwm-theme-garden) | ~/.config/leftwm/themes/garden |
+| [amber](#amber) | [Amber](https://github.com/di-effe/amber) | ~/.config/leftwm/themes/amber |
 
 
 ### fzf
@@ -153,4 +154,12 @@ leftwmrc-theme-get windowsxp
 
 ``` sh
 leftwmrc-theme-get garden
+```
+
+### amber
+
+執行下面指令，單一安裝「theme / [amber](https://github.com/di-effe/amber)」
+
+``` sh
+leftwmrc-theme-get amber
 ```
