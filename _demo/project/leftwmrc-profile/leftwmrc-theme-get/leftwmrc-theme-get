@@ -420,7 +420,6 @@ fi
 local selected=$(fzf << EOF
 all
 dracula_rounded
-amber
 blue_coffee
 bumblebee
 changed_sunset
@@ -433,6 +432,8 @@ soothe
 tng
 windowsxp
 garden
+amber
+catppuccin
 EOF
 )
 
@@ -463,6 +464,8 @@ mod_all_install () {
 
 	mod_dracula_rounded_install
 	mod_amber_install
+	mod_catppuccin_install
+	mod_garden_install
 	mod_blue_coffee_install
 	mod_bumblebee_install
 	mod_changed_sunset_install
@@ -867,6 +870,24 @@ mod_amber_install () {
 
 
 ################################################################################
+### Head: Model catppuccin
+##
+
+mod_catppuccin_install () {
+
+	## https://github.com/di-effe/catppuccin
+
+	echo
+	leftwmrc_theme_repo_clone 'catppuccin' 'https://github.com/di-effe/catppuccin.git'
+	echo
+}
+
+##
+### Tail: Model catppuccin
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -983,6 +1004,12 @@ sub_run_amber () {
 	mod_amber_install "$@"
 }
 
+
+sub_run_catppuccin () {
+	#echo "sub_run_catppuccin"
+	mod_catppuccin_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -1054,6 +1081,8 @@ Example:
 		$ $cmd_name garden
 
 		$ $cmd_name amber
+
+		$ $cmd_name catppuccin
 
 
 Debug:

@@ -27,7 +27,6 @@ fi
 local selected=$(fzf << EOF
 all
 dracula_rounded
-amber
 blue_coffee
 bumblebee
 changed_sunset
@@ -40,6 +39,8 @@ soothe
 tng
 windowsxp
 garden
+amber
+catppuccin
 EOF
 )
 

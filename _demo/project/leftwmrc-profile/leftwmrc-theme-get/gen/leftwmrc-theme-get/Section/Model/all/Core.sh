@@ -8,6 +8,8 @@ mod_all_install () {
 
 	mod_dracula_rounded_install
 	mod_amber_install
+	mod_catppuccin_install
+	mod_garden_install
 	mod_blue_coffee_install
 	mod_bumblebee_install
 	mod_changed_sunset_install

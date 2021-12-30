@@ -34,6 +34,7 @@ grand_parent: 專案
 | [windowsxp](#windowsxp) | [windowsxp](https://github.com/lex148/leftwm-windowsxp/) | ~/.config/leftwm/themes/windowsxp |
 | [garden](#garden) | [Garden](https://github.com/taylor85345/leftwm-theme-garden) | ~/.config/leftwm/themes/garden |
 | [amber](#amber) | [Amber](https://github.com/di-effe/amber) | ~/.config/leftwm/themes/amber |
+| [amber](#amber) | [Catppuccin](https://github.com/di-effe/catppuccin) | ~/.config/leftwm/themes/catppuccin |
 
 
 ### fzf
@@ -162,4 +163,12 @@ leftwmrc-theme-get garden
 
 ``` sh
 leftwmrc-theme-get amber
+```
+
+### catppuccin
+
+執行下面指令，單一安裝「theme / [catppuccin](https://github.com/di-effe/catppuccin)」
+
+``` sh
+leftwmrc-theme-get catppuccin
 ```
