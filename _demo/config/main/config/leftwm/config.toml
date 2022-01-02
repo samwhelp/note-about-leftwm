@@ -288,6 +288,56 @@ key = "i"
 
 
 ################################################################################
+### Head: Keybind / Wallpaper
+##
+
+## Set Wallpaper Shuf
+## Alt + w
+[[keybind]]
+command = "Execute"
+value = "feh --bg-fill --randomize ~/Pictures/Wallpaper"
+modifier = ["Mod1"]
+key = "w"
+
+## Set Wallpaper Default
+## Alt + Ctrl + w
+[[keybind]]
+command = "Execute"
+value = "feh --bg-fill ~/Pictures/Wallpaper/default.jpg"
+modifier = ["Mod1", "Control"]
+key = "w"
+
+##
+### Tail: Keybind / Wallpaper
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Screenshot
+##
+
+## Screenshot
+## Print
+[[keybind]]
+command = "Execute"
+value = "scrot"
+modifier = []
+key = "Print"
+
+## Screenshot Selected Area
+## Alt + Print
+[[keybind]]
+command = "Execute"
+value = "scrot -s"
+modifier = ["Mod1"]
+key = "Print"
+
+##
+### Tail: Keybind / Screenshot
+################################################################################
+
+
+################################################################################
 ### Head: Keybind / Tag / Switch
 ##
 
