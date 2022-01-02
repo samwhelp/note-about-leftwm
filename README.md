@@ -68,11 +68,9 @@
 | 系統操作 |
 | --- |
 | [系統操作](https://samwhelp.github.io/note-about-leftwm/read/scenario/system-control) |
-
-
-| 音量控制 |
-| --- |
 | [音量控制](https://samwhelp.github.io/note-about-leftwm/read/scenario/volume-control) |
+| [桌布切換](https://samwhelp.github.io/note-about-leftwm/read/scenario/wallpaper) |
+| [截圖](https://samwhelp.github.io/note-about-leftwm/read/scenario/screenshot) |
 
 
 ## 注意事項

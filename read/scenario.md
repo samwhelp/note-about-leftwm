@@ -40,3 +40,17 @@ has_children: true
 | 主題 |
 | --- |
 | [音量控制](scenario/volume-control) |
+
+
+## 桌布切換
+
+| 主題 |
+| --- |
+| [桌布切換](scenario/wallpaper) |
+
+
+## 截圖
+
+| 主題 |
+| --- |
+| [截圖](scenario/screenshot) |
