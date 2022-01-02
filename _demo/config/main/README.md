@@ -1,5 +1,5 @@
 
-# leftwm / config
+# Leftwm / Config / Main
 
 
 ## Install
