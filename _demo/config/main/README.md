@@ -12,6 +12,11 @@ curl -fLo ~/.config/leftwm/config.toml --create-dirs \
 ```
 
 
+## Keybind
+
+* [spec-keybind](spec-keybind.md)
+
+
 ## Note
 
 * [config](https://samwhelp.github.io/note-about-leftwm/read/config.html)
