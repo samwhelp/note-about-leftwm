@@ -10,7 +10,10 @@
 * [Tag](#tag)
 * [Window](#window)
 * [Layout](#layout)
+* [Wallpaper](#wallpaper)
+* [Screenshot](#screenshot)
 * [Volume](#volume)
+
 
 
 ## Keys
@@ -44,7 +47,7 @@
 
 ## System
 
-| Key | Description |
+| Keyind | Action |
 | --- | --- |
 | `Alt + Shift + c` | Reconfigure |
 | `Alt + Shift + x` | Logout |
@@ -55,37 +58,41 @@
 
 ### Launch Terminal
 
-| Key | Description |
-| --- | --- |
-| `Alt + Enter` | Launch Terminal (sakura) |
-| `Alt + Shift + a` | Launch Terminal (sakura) |
-| `Alt + Ctrl + a` | Launch Terminal (xfce4-terminal) |
-| `Alt + Shift + t` | Launch Terminal (xterm) |
-| `Alt + Ctrl + t` | Launch Terminal (urxvt) |
-| `Alt + Shift + o` | Toggle Scratchpad (xfce4-terminal) |
+| Keybind           | Action          | Command                      |
+| ----------------- | --------------- | ---------------------------- |
+| `Alt + Enter`     | Launch Terminal | `sakura`                     |
+| `Alt + Shift + a` | Launch Terminal | `sakura`                     |
+| `Alt + Ctrl + a`  | Launch Terminal | `xfce4-terminal`             |
+| `Alt + Shift + t` | Launch Terminal | `xterm`                      |
+| `Alt + Ctrl + t`  | Launch Terminal | `urxvt`                      |
+
+
+| Keybind           | Action                     | Command                      |
+| ----------------- | -------------------------- | ---------------------------- |
+| `Alt + Shift + o` | Toggle Scratchpad Terminal | `xfce4-terminal`             |
 
 ### Launch Rofi
 
-| Key | Description |
-| --- | --- |
-| `Alt + Shift + r` | Launch Rofi (rofi -show run) |
-| `Alt + Shift + w` | Launch Rofi (rofi -show window -show-icons) |
-| `Alt + Shift + d` | Launch Rofi (rofi -show drun -show-icons) |
+| Keybind           | Action      | Command                         |
+| ----------------- | ----------- | ------------------------------- |
+| `Alt + Shift + d` | Launch Rofi | `rofi -show drun -show-icons`   |
+| `Alt + Shift + w` | Launch Rofi | `rofi -show window -show-icons` |
+| `Alt + Shift + r` | Launch Rofi | `rofi -show run`                |
 
 ### Launch Misc
 
-| Key | Description |
-| --- | --- |
-| `Alt + Shift + f` | Launch File Manager (pcmanfm-qt) |
-| `Alt + Shift + g` | Launch File Manager (thunar) |
-| `Alt + Shift + e` | Launch Text Editor (mousepad) |
-| `Alt + Shift + b` | Launch Web Browser (firefox) |
+| Keybind           | Action              | Command      |
+| ----------------- | ------------------- | ------------ |
+| `Alt + Shift + f` | Launch File Manager | `pcmanfm-qt` |
+| `Alt + Shift + g` | Launch File Manager | `thunar`     |
+| `Alt + Shift + e` | Launch Text Editor  | `mousepad`   |
+| `Alt + Shift + b` | Launch Web Browser  | `firefox`    |
 
 ### Launch Dmenu
 
-| Key | Description |
-| --- | --- |
-| `Alt + Shift + i` | Launch Dmenu (dmenu_run) |
+| Keybind           | Action              | Command      |
+| ----------------- | ------------------- | ------------ |
+| `Alt + Shift + i` |  Launch Dmenu       | `dmenu_run`  |
 
 
 ## Workspace
@@ -231,28 +238,45 @@
 | `Alt + Ctrl + Down` | Decrease Main Width |
 
 
+## Wallpaper
+
+| Keybind          | Action            | Command                                          |
+| ---------------- | ----------------- | ------------------------------------------------ |
+| `Alt + w`        | Wallpaper Shuf    | `feh --bg-fill --randomize ~/Pictures/Wallpaper` |
+| `Alt + Ctrl + w` | Wallpaper Default | `feh --bg-fill ~/Pictures/Wallpaper/default.jpg` |
+
+## Screenshot
+
+| Keybind       | Action                   | Command    |
+| ------------- | ------------------------ | ---------- |
+| `Print`       | Screenshot               | `scrot`    |
+| `Alt + Print` | Screenshot Selected Area | `scrot -s` |
+
+
 ## Volume
 
-| Key | Description |
-| --- | --- |
-| `Alt + Shift + v` | Launch Volume Control (mate-volume-control) |
-| `Alt + m` | Volume Toggle Mute |
+
+| Keybind           | Action                 | Command                                     |
+| ----------------- | ---------------------- | ------------------------------------------- |
+| `Alt + Shift + v` | Launch Volume Control  | `mate-volume-control`                       |
+| `Alt + m`         | Volume Toggle Mute     | `amixer -q -D pulse sset Master toggle`     |
 
 
-| Key | Description |
-| --- | --- |
-| `Alt + Shitf + ,` | Volume Decrease |
-| `Alt + Shitf + .` | Volume Increase |
-| `Alt + Ctrl + ,` | Volume Decrease Slowly |
-| `Alt + Ctrl + .` | Volume Increase Slowly |
+| Keybind           | Action                 | Command                                     |
+| ----------------- | ---------------------- | ------------------------------------------- |
+| `Alt + Shift + <` | Volume Decrease        | `amixer -q -D pulse sset Master 5%- unmute` |
+| `Alt + Shift + >` | Volume Increase        | `amixer -q -D pulse sset Master 5%+ unmute` |
+| `Alt + Ctrl + ,`  | Volume Decrease Slowly | `amixer -q -D pulse sset Master 1%- unmute` |
+| `Alt + Ctrl + .`  | Volume Increase Slowly | `amixer -q -D pulse sset Master 1%+ unmute` |
+
 
 > collision occurs on bash emacs mode
 > * `Alt + ,`
 > * `Alt + .`
 
 
-| Key | Description |
-| --- | --- |
-| `XF86AudioMute` | Volume Toggle Mute |
-| `XF86AudioLowerVolume` | Volume Decrease |
-| `XF86AudioRaiseVolume` | Volume Increase |
+| Keybind                | Action                 | Command                                     |
+| ---------------------- | ---------------------- | ------------------------------------------- |
+| `XF86AudioMute`        | Volume Toggle Mute     | `amixer -q -D pulse sset Master toggle`     |
+| `XF86AudioLowerVolume` | Volume Decrease        | `amixer -q -D pulse sset Master 5%- unmute` |
+| `XF86AudioRaiseVolume` | Volume Increase        | `amixer -q -D pulse sset Master 5%+ unmute` |
