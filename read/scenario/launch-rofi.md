@@ -8,8 +8,8 @@ parent: 使用情境
 
 # 開啟應用程式 (Rofi)
 
-| 按鍵組合 | 功能 |
-| --- | --- |
-| `Alt + Shift + r` | 開啟 Rofi (rofi -show run) |
-| `Alt + Shift + w` | 開啟 Rofi (rofi -show window -show-icons) |
-| `Alt + Shift + d` | 開啟 Rofi (rofi -show drun -show-icons) |
+| 按鍵組合           | 功能         | 執行指令                         |
+| ----------------- | ----------- | ------------------------------- |
+| `Alt + Shift + d` | 開啟 Rofi    | `rofi -show drun -show-icons`   |
+| `Alt + Shift + w` | 開啟 Rofi    | `rofi -show window -show-icons` |
+| `Alt + Shift + r` | 開啟 Rofi    | `rofi -show run`                |

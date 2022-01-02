@@ -8,11 +8,15 @@ parent: 使用情境
 
 # 開啟應用程式 (Terminal)
 
-| 按鍵組合 | 功能 |
-| --- | --- |
-| `Alt + Enter` | 開啟 Terminal (sakura) |
-| `Alt + Shift + a` | 開啟 Terminal (sakura) |
-| `Alt + Ctrl + a` | 開啟 Terminal (xfce4-terminal) |
-| `Alt + Shift + t` | 開啟 Terminal (xterm) |
-| `Alt + Ctrl + t` | 開啟 Terminal (urxvt) |
-| `Alt + Shift + o` | Toggle Scratchpad (xfce4-terminal) |
+| 按鍵組合           | 功能          | 執行指令                       |
+| ----------------- | ------------ | ----------------------------- |
+| `Alt + Enter`     | 開啟 Terminal | `sakura`                     |
+| `Alt + Shift + a` | 開啟 Terminal | `sakura`                     |
+| `Alt + Ctrl + a`  | 開啟 Terminal | `xfce4-terminal`             |
+| `Alt + Shift + t` | 開啟 Terminal | `xterm`                      |
+| `Alt + Ctrl + t`  | 開啟 Terminal | `urxvt`                      |
+
+
+| 按鍵組合           | 功能          | 執行指令                         |
+| ----------------- | ------------ | ------------------------------- |
+| `Alt + Shift + o` | Toggle Scratchpad (Terminal) | `xfce4-terminal` |
