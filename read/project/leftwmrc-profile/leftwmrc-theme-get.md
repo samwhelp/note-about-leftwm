@@ -45,6 +45,7 @@ grand_parent: 專案
 | [doublebar](#doublebar) | [Double Bar](https://github.com/PeterDauwe/doublebar) | ~/.config/leftwm/themes/doublebar |
 | [vacation](#vacation) | [Vacation](https://github.com/PeterDauwe/db-vacation) | ~/.config/leftwm/themes/vacation |
 | [scifi](#scifi) | [Scifi](https://github.com/PeterDauwe/db-scifi) | ~/.config/leftwm/themes/scifi |
+| [comic](#comic) | [Comic](https://github.com/PeterDauwe/db-comic) | ~/.config/leftwm/themes/comic |
 
 
 ### fzf
@@ -234,4 +235,13 @@ leftwmrc-theme-get vacation
 
 ``` sh
 leftwmrc-theme-get scifi
+```
+
+
+### comic
+
+執行下面指令，單一安裝「theme / [comic](https://github.com/PeterDauwe/db-comic)」
+
+``` sh
+leftwmrc-theme-get comic
 ```

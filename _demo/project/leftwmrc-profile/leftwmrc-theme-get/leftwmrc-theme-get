@@ -440,6 +440,7 @@ space_jelly
 doublebar
 vacation
 scifi
+comic
 EOF
 )
 
@@ -490,6 +491,7 @@ mod_all_install () {
 	mod_doublebar_install
 	mod_vacation_install
 	mod_scifi_install
+	mod_comic_install
 
 }
 
@@ -1029,6 +1031,24 @@ mod_scifi_install () {
 
 
 ################################################################################
+### Head: Model comic
+##
+
+mod_comic_install () {
+
+	## https://github.com/PeterDauwe/db-comic
+
+	echo
+	leftwmrc_theme_repo_clone 'comic' 'https://github.com/PeterDauwe/db-comic.git'
+	echo
+}
+
+##
+### Tail: Model comic
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -1187,6 +1207,12 @@ sub_run_scifi () {
 	mod_scifi_install "$@"
 }
 
+
+sub_run_comic () {
+	#echo "sub_run_comic"
+	mod_comic_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -1272,6 +1298,8 @@ Example:
 		$ $cmd_name vacation
 
 		$ $cmd_name scifi
+
+		$ $cmd_name comic
 
 
 Debug:

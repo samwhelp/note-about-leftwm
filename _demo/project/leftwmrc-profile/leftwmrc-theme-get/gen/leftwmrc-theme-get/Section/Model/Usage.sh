@@ -20,3 +20,4 @@
 <?php include_once(__DIR__ . '/theme_doublebar/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_vacation/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_scifi/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_comic/Usage.sh'); ?>

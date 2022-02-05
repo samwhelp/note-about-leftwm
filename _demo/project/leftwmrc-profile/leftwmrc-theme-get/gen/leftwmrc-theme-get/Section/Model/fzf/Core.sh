@@ -47,6 +47,7 @@ space_jelly
 doublebar
 vacation
 scifi
+comic
 EOF
 )
 
