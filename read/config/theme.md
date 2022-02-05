@@ -11,8 +11,8 @@ parent: 設定
 有下面幾種方式來安裝「佈景主題」
 
 * [手動安裝採用](#手動安裝採用)
-* [leftwm-theme輔助安裝](#leftwm-theme輔助安裝)
-* [leftwmrc-theme-get輔助安裝](#leftwmrc-theme-get輔助安裝)
+* [透過leftwm-theme輔助安裝](#透過leftwm-theme輔助安裝)
+* [透過leftwmrc-theme-get輔助安裝](#透過leftwmrc-theme-get輔助安裝)
 
 相關的說明可以參考「 leftwm / Wiki / [Themes](https://github.com/leftwm/leftwm/wiki/Themes)」。
 
@@ -63,7 +63,7 @@ ln -sf current /usr/share/leftwm/themes/basic_polybar
 ```
 
 
-## leftwm-theme輔助安裝
+## 透過leftwm-theme輔助安裝
 
 透過「[leftwm-theme](https://github.com/leftwm/leftwm-theme)」這個指令， 來輔助安裝「佈景主題」，
 
@@ -72,7 +72,7 @@ ln -sf current /usr/share/leftwm/themes/basic_polybar
 或是也可以參考我自己整理的[列表](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-get.html#%E4%BD%BF%E7%94%A8%E7%AF%84%E4%BE%8B)。
 
 
-## leftwmrc-theme-get輔助安裝
+## 透過leftwmrc-theme-get輔助安裝
 
 也可以採用我自己開發的腳本「[leftwmrc-theme-get](https://samwhelp.github.io/note-about-leftwm/read/project/leftwmrc-profile/leftwmrc-theme-get.html)」來輔助安裝「佈景主題」。
 
