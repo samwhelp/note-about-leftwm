@@ -439,6 +439,7 @@ ocean_night
 space_jelly
 doublebar
 vacation
+scifi
 EOF
 )
 
@@ -488,6 +489,7 @@ mod_all_install () {
 
 	mod_doublebar_install
 	mod_vacation_install
+	mod_scifi_install
 
 }
 
@@ -1009,6 +1011,24 @@ mod_vacation_install () {
 
 
 ################################################################################
+### Head: Model scifi
+##
+
+mod_scifi_install () {
+
+	## https://github.com/PeterDauwe/db-scifi
+
+	echo
+	leftwmrc_theme_repo_clone 'scifi' 'https://github.com/PeterDauwe/db-scifi.git'
+	echo
+}
+
+##
+### Tail: Model scifi
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -1161,6 +1181,12 @@ sub_run_vacation () {
 	mod_vacation_install "$@"
 }
 
+
+sub_run_scifi () {
+	#echo "sub_run_scifi"
+	mod_scifi_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -1244,6 +1270,8 @@ Example:
 		$ $cmd_name doublebar
 
 		$ $cmd_name vacation
+
+		$ $cmd_name scifi
 
 
 Debug:

@@ -46,6 +46,7 @@ ocean_night
 space_jelly
 doublebar
 vacation
+scifi
 EOF
 )
 

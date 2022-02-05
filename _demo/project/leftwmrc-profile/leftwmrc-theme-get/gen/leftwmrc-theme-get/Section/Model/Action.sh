@@ -20,3 +20,4 @@
 <?php include_once(__DIR__ . '/theme_space_jelly/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_doublebar/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_vacation/Action.sh'); ?>
+<?php include_once(__DIR__ . '/theme_scifi/Action.sh'); ?>

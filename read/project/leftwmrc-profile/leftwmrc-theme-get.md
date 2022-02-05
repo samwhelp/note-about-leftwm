@@ -44,6 +44,7 @@ grand_parent: 專案
 | [catppuccin](#catppuccin) | [Catppuccin](https://github.com/di-effe/catppuccin) | ~/.config/leftwm/themes/catppuccin |
 | [doublebar](#doublebar) | [Double Bar](https://github.com/PeterDauwe/doublebar) | ~/.config/leftwm/themes/doublebar |
 | [vacation](#vacation) | [Vacation](https://github.com/PeterDauwe/db-vacation) | ~/.config/leftwm/themes/vacation |
+| [scifi](#scifi) | [Scifi](https://github.com/PeterDauwe/db-scifi) | ~/.config/leftwm/themes/scifi |
 
 
 ### fzf
@@ -225,4 +226,12 @@ leftwmrc-theme-get doublebar
 
 ``` sh
 leftwmrc-theme-get vacation
+```
+
+### scifi
+
+執行下面指令，單一安裝「theme / [scifi](https://github.com/PeterDauwe/db-scifi)」
+
+``` sh
+leftwmrc-theme-get scifi
 ```
