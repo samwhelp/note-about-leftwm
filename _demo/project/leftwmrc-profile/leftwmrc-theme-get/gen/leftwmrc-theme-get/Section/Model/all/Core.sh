@@ -21,6 +21,9 @@ mod_all_install () {
 	mod_soothe_install
 	mod_tng_install
 	mod_windowsxp_install
+	mod_flamingo_install
+	mod_ocean_night_install
+
 	mod_vacation_install
 
 }

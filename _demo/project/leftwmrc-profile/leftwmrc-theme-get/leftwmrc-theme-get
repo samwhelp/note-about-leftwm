@@ -434,6 +434,8 @@ windowsxp
 garden
 amber
 catppuccin
+flamingo
+ocean_night
 vacation
 EOF
 )
@@ -478,6 +480,9 @@ mod_all_install () {
 	mod_soothe_install
 	mod_tng_install
 	mod_windowsxp_install
+	mod_flamingo_install
+	mod_ocean_night_install
+
 	mod_vacation_install
 
 }
@@ -532,7 +537,7 @@ mod_bumblebee_install_fix () {
 	local down_file_path="$theme_dir_path/down"
 
 	echo "chmod +x $up_file_path"
-	chmod u+x "$up_file_path"
+	chmod +x "$up_file_path"
 
 	echo "chmod +x $down_file_path"
 	chmod +x "$down_file_path"
@@ -575,7 +580,7 @@ mod_ground_zero_install_fix () {
 	local down_file_path="$theme_dir_path/down"
 
 	echo "chmod +x $up_file_path"
-	chmod u+x "$up_file_path"
+	chmod +x "$up_file_path"
 
 	echo "chmod +x $down_file_path"
 	chmod +x "$down_file_path"
@@ -616,7 +621,7 @@ mod_red_moon_install_fix () {
 	local down_file_path="$theme_dir_path/down"
 
 	echo "chmod +x $up_file_path"
-	chmod u+x "$up_file_path"
+	chmod +x "$up_file_path"
 
 	echo "chmod +x $down_file_path"
 	chmod +x "$down_file_path"
@@ -657,7 +662,7 @@ mod_blue_coffee_install_fix () {
 	local down_file_path="$theme_dir_path/down"
 
 	echo "chmod +x $up_file_path"
-	chmod u+x "$up_file_path"
+	chmod +x "$up_file_path"
 
 	echo "chmod +x $down_file_path"
 	chmod +x "$down_file_path"
@@ -819,7 +824,7 @@ mod_coffee_install_fix () {
 	local down_file_path="$theme_dir_path/down"
 
 	echo "chmod +x $up_file_path"
-	chmod u+x "$up_file_path"
+	chmod +x "$up_file_path"
 
 	echo "chmod +x $down_file_path"
 	chmod +x "$down_file_path"
@@ -922,6 +927,44 @@ mod_flamingo_install () {
 
 ##
 ### Tail: Model flamingo
+################################################################################
+
+
+################################################################################
+### Head: Model ocean_night
+##
+
+mod_ocean_night_install () {
+
+	## https://github.com/TheRoniOne/ocean-night
+
+	echo
+	leftwmrc_theme_repo_clone 'ocean_night' 'https://github.com/TheRoniOne/ocean-night.git'
+	echo
+
+
+	mod_ocean_night_install_fix 'ocean_night'
+}
+
+mod_ocean_night_install_fix () {
+
+	local theme_dir_name="$1"
+
+	local theme_dir_path="$THE_LEFTWMRC_THEMES_DIR_PATH/$theme_dir_name"
+
+	local up_file_path="$theme_dir_path/up"
+	local down_file_path="$theme_dir_path/down"
+
+	echo "chmod 755 $up_file_path"
+	chmod 755 "$up_file_path"
+
+	echo "chmod 755 $down_file_path"
+	chmod 755 "$down_file_path"
+
+}
+
+##
+### Tail: Model ocean_night
 ################################################################################
 
 
@@ -1060,6 +1103,12 @@ sub_run_flamingo () {
 	mod_flamingo_install "$@"
 }
 
+
+sub_run_ocean_night () {
+	#echo "sub_run_ocean_night"
+	mod_ocean_night_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -1137,6 +1186,8 @@ Example:
 		$ $cmd_name vacation
 
 		$ $cmd_name flamingo
+
+		$ $cmd_name ocean_night
 
 
 Debug:

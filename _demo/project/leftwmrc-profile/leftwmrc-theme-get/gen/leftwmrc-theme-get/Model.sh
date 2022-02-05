@@ -18,3 +18,4 @@
 <?php include_once(__DIR__ . '/Section/Model/theme_catppuccin/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_vacation/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_flamingo/Core.sh'); ?>
+<?php include_once(__DIR__ . '/Section/Model/theme_ocean_night/Core.sh'); ?>

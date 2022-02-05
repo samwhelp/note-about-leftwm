@@ -41,6 +41,8 @@ windowsxp
 garden
 amber
 catppuccin
+flamingo
+ocean_night
 vacation
 EOF
 )

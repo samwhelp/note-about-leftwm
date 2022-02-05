@@ -26,7 +26,7 @@ mod_ground_zero_install_fix () {
 	local down_file_path="$theme_dir_path/down"
 
 	echo "chmod +x $up_file_path"
-	chmod u+x "$up_file_path"
+	chmod +x "$up_file_path"
 
 	echo "chmod +x $down_file_path"
 	chmod +x "$down_file_path"

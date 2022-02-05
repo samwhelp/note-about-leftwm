@@ -17,3 +17,4 @@
 <?php include_once(__DIR__ . '/theme_catppuccin/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_vacation/Action.sh'); ?>
 <?php include_once(__DIR__ . '/theme_flamingo/Action.sh'); ?>
+<?php include_once(__DIR__ . '/theme_ocean_night/Action.sh'); ?>
