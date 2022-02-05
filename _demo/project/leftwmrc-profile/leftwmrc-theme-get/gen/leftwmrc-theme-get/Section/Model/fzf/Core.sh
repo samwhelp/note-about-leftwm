@@ -43,6 +43,7 @@ amber
 catppuccin
 flamingo
 ocean_night
+doublebar
 vacation
 EOF
 )

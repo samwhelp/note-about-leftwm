@@ -436,6 +436,7 @@ amber
 catppuccin
 flamingo
 ocean_night
+doublebar
 vacation
 EOF
 )
@@ -483,6 +484,7 @@ mod_all_install () {
 	mod_flamingo_install
 	mod_ocean_night_install
 
+	mod_doublebar_install
 	mod_vacation_install
 
 }
@@ -895,24 +897,6 @@ mod_catppuccin_install () {
 
 
 ################################################################################
-### Head: Model vacation
-##
-
-mod_vacation_install () {
-
-	## https://github.com/PeterDauwe/db-vacation
-
-	echo
-	leftwmrc_theme_repo_clone 'vacation' 'https://github.com/PeterDauwe/db-vacation.git'
-	echo
-}
-
-##
-### Tail: Model vacation
-################################################################################
-
-
-################################################################################
 ### Head: Model flamingo
 ##
 
@@ -965,6 +949,42 @@ mod_ocean_night_install_fix () {
 
 ##
 ### Tail: Model ocean_night
+################################################################################
+
+
+################################################################################
+### Head: Model doublebar
+##
+
+mod_doublebar_install () {
+
+	## https://github.com/PeterDauwe/doublebar
+
+	echo
+	leftwmrc_theme_repo_clone 'doublebar' 'https://github.com/PeterDauwe/doublebar.git'
+	echo
+}
+
+##
+### Tail: Model doublebar
+################################################################################
+
+
+################################################################################
+### Head: Model vacation
+##
+
+mod_vacation_install () {
+
+	## https://github.com/PeterDauwe/db-vacation
+
+	echo
+	leftwmrc_theme_repo_clone 'vacation' 'https://github.com/PeterDauwe/db-vacation.git'
+	echo
+}
+
+##
+### Tail: Model vacation
 ################################################################################
 
 
@@ -1092,12 +1112,6 @@ sub_run_catppuccin () {
 }
 
 
-sub_run_vacation () {
-	#echo "sub_run_vacation"
-	mod_vacation_install "$@"
-}
-
-
 sub_run_flamingo () {
 	#echo "sub_run_flamingo"
 	mod_flamingo_install "$@"
@@ -1107,6 +1121,18 @@ sub_run_flamingo () {
 sub_run_ocean_night () {
 	#echo "sub_run_ocean_night"
 	mod_ocean_night_install "$@"
+}
+
+
+sub_run_doublebar () {
+	#echo "sub_run_doublebar"
+	mod_doublebar_install "$@"
+}
+
+
+sub_run_vacation () {
+	#echo "sub_run_vacation"
+	mod_vacation_install "$@"
 }
 
 ##
@@ -1183,11 +1209,13 @@ Example:
 
 		$ $cmd_name catppuccin
 
-		$ $cmd_name vacation
-
 		$ $cmd_name flamingo
 
 		$ $cmd_name ocean_night
+
+		$ $cmd_name doublebar
+
+		$ $cmd_name vacation
 
 
 Debug:

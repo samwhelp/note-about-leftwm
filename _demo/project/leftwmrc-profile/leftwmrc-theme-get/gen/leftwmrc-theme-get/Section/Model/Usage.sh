@@ -14,6 +14,7 @@
 <?php include_once(__DIR__ . '/theme_garden/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_amber/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_catppuccin/Usage.sh'); ?>
-<?php include_once(__DIR__ . '/theme_vacation/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_flamingo/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_ocean_night/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_doublebar/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_vacation/Usage.sh'); ?>

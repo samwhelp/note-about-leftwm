@@ -35,10 +35,13 @@ grand_parent: 專案
 | [red_moon](#red_moon) | [Red Moon](https://github.com/Qwart376/Red-Moon/) | ~/.config/leftwm/themes/red_moon |
 | [soothe](#soothe) | [Soothe](https://github.com/b4skyx/leftwm-soothe/) | ~/.config/leftwm/themes/soothe |
 | [tng](#tng) | [TNG](https://github.com/lex148/leftwm-tng/) | ~/.config/leftwm/themes/tng |
-| [windowsxp](#windowsxp) | [windowsxp](https://github.com/lex148/leftwm-windowsxp/) | ~/.config/leftwm/themes/windowsxp |
+| [windowsxp](#windowsxp) | [windowsxp](https://github.com/lex148/leftwm-windowsxp) | ~/.config/leftwm/themes/windowsxp |
+| [flamingo](#flamingo) | [flamingo](https://github.com/necaris/leftwm-theme-flamingo) | ~/.config/leftwm/themes/flamingo |
+| [ocean_night](#ocean_night) | [Ocean Night](https://github.com/TheRoniOne/ocean-night) | ~/.config/leftwm/themes/ocean_night |
 | [garden](#garden) | [Garden](https://github.com/taylor85345/leftwm-theme-garden) | ~/.config/leftwm/themes/garden |
 | [amber](#amber) | [Amber](https://github.com/di-effe/amber) | ~/.config/leftwm/themes/amber |
 | [catppuccin](#catppuccin) | [Catppuccin](https://github.com/di-effe/catppuccin) | ~/.config/leftwm/themes/catppuccin |
+| [doublebar](#doublebar) | [Double Bar](https://github.com/PeterDauwe/doublebar) | ~/.config/leftwm/themes/doublebar |
 | [vacation](#vacation) | [Vacation](https://github.com/PeterDauwe/db-vacation) | ~/.config/leftwm/themes/vacation |
 
 
@@ -148,11 +151,30 @@ leftwmrc-theme-get tng
 
 ### windowsxp
 
-執行下面指令，單一安裝「theme / [windowsxp](https://github.com/lex148/leftwm-windowsxp/)」
+執行下面指令，單一安裝「theme / [windowsxp](https://github.com/lex148/leftwm-windowsxp)」
 
 ``` sh
 leftwmrc-theme-get windowsxp
 ```
+
+
+### flamingo
+
+執行下面指令，單一安裝「theme / [flamingo](https://github.com/necaris/leftwm-theme-flamingo)」
+
+``` sh
+leftwmrc-theme-get flamingo
+```
+
+
+### ocean_night
+
+執行下面指令，單一安裝「theme / [ocean_night](https://github.com/TheRoniOne/ocean-night)」
+
+``` sh
+leftwmrc-theme-get ocean_night
+```
+
 
 ### garden
 
@@ -178,7 +200,16 @@ leftwmrc-theme-get amber
 leftwmrc-theme-get catppuccin
 ```
 
-### Vacation
+
+### doublebar
+
+執行下面指令，單一安裝「theme / [doublebar](https://github.com/PeterDauwe/doublebar)」
+
+``` sh
+leftwmrc-theme-get doublebar
+```
+
+### vacation
 
 執行下面指令，單一安裝「theme / [vacation](https://github.com/PeterDauwe/db-vacation)」
 
