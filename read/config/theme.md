@@ -16,6 +16,8 @@ parent: 設定
 
 相關的說明可以參考「 leftwm / Wiki / [Themes](https://github.com/leftwm/leftwm/wiki/Themes)」。
 
+佈景主題可以在「[LeftWM Community Themes](https://github.com/leftwm/leftwm-community-themes) / [known.toml](https://github.com/leftwm/leftwm-community-themes/blob/master/known.toml)」找到相關的連結。
+
 
 ## 佈景主題路徑
 

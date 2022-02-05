@@ -9,6 +9,10 @@ grand_parent: 專案
 # leftwmrc-theme-get
 
 
+## 佈景主題
+
+佈景主題可以在「[LeftWM Community Themes](https://github.com/leftwm/leftwm-community-themes) / [known.toml](https://github.com/leftwm/leftwm-community-themes/blob/master/known.toml)」找到相關的連結。
+
 ## 專案連結
 
 * [leftwmrc-theme-get](https://github.com/samwhelp/note-about-leftwm/tree/gh-pages/_demo/project/leftwmrc-profile/leftwmrc-theme-get)
