@@ -38,6 +38,7 @@ grand_parent: 專案
 | [windowsxp](#windowsxp) | [windowsxp](https://github.com/lex148/leftwm-windowsxp) | ~/.config/leftwm/themes/windowsxp |
 | [flamingo](#flamingo) | [flamingo](https://github.com/necaris/leftwm-theme-flamingo) | ~/.config/leftwm/themes/flamingo |
 | [ocean_night](#ocean_night) | [Ocean Night](https://github.com/TheRoniOne/ocean-night) | ~/.config/leftwm/themes/ocean_night |
+| [space_jelly](#space_jelly) | [Space Jelly](https://gitlab.com/jchand99/space_jelly) | ~/.config/leftwm/themes/space_jelly |
 | [garden](#garden) | [Garden](https://github.com/taylor85345/leftwm-theme-garden) | ~/.config/leftwm/themes/garden |
 | [amber](#amber) | [Amber](https://github.com/di-effe/amber) | ~/.config/leftwm/themes/amber |
 | [catppuccin](#catppuccin) | [Catppuccin](https://github.com/di-effe/catppuccin) | ~/.config/leftwm/themes/catppuccin |
@@ -173,6 +174,15 @@ leftwmrc-theme-get flamingo
 
 ``` sh
 leftwmrc-theme-get ocean_night
+```
+
+
+### space_jelly
+
+執行下面指令，單一安裝「theme / [space_jelly](https://gitlab.com/jchand99/space_jelly)」
+
+``` sh
+leftwmrc-theme-get space_jelly
 ```
 
 

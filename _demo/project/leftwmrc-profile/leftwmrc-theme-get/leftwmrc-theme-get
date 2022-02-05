@@ -436,6 +436,7 @@ amber
 catppuccin
 flamingo
 ocean_night
+space_jelly
 doublebar
 vacation
 EOF
@@ -483,6 +484,7 @@ mod_all_install () {
 	mod_windowsxp_install
 	mod_flamingo_install
 	mod_ocean_night_install
+	mod_space_jelly_install
 
 	mod_doublebar_install
 	mod_vacation_install
@@ -953,6 +955,24 @@ mod_ocean_night_install_fix () {
 
 
 ################################################################################
+### Head: Model space_jelly
+##
+
+mod_space_jelly_install () {
+
+	## https://gitlab.com/jchand99/space_jelly
+
+	echo
+	leftwmrc_theme_repo_clone 'space_jelly' 'https://gitlab.com/jchand99/space_jelly.git'
+	echo
+}
+
+##
+### Tail: Model space_jelly
+################################################################################
+
+
+################################################################################
 ### Head: Model doublebar
 ##
 
@@ -1124,6 +1144,12 @@ sub_run_ocean_night () {
 }
 
 
+sub_run_space_jelly () {
+	#echo "sub_run_space_jelly"
+	mod_space_jelly_install "$@"
+}
+
+
 sub_run_doublebar () {
 	#echo "sub_run_doublebar"
 	mod_doublebar_install "$@"
@@ -1212,6 +1238,8 @@ Example:
 		$ $cmd_name flamingo
 
 		$ $cmd_name ocean_night
+
+		$ $cmd_name space_jelly
 
 		$ $cmd_name doublebar
 

@@ -23,6 +23,7 @@ mod_all_install () {
 	mod_windowsxp_install
 	mod_flamingo_install
 	mod_ocean_night_install
+	mod_space_jelly_install
 
 	mod_doublebar_install
 	mod_vacation_install

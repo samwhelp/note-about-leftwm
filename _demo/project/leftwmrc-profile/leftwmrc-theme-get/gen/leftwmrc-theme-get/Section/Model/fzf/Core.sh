@@ -43,6 +43,7 @@ amber
 catppuccin
 flamingo
 ocean_night
+space_jelly
 doublebar
 vacation
 EOF

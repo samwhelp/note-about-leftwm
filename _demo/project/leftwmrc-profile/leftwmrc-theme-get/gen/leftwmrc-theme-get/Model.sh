@@ -18,5 +18,6 @@
 <?php include_once(__DIR__ . '/Section/Model/theme_catppuccin/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_flamingo/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_ocean_night/Core.sh'); ?>
+<?php include_once(__DIR__ . '/Section/Model/theme_space_jelly/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_doublebar/Core.sh'); ?>
 <?php include_once(__DIR__ . '/Section/Model/theme_vacation/Core.sh'); ?>
