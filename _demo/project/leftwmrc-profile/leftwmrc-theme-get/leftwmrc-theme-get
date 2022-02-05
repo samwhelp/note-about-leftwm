@@ -908,6 +908,24 @@ mod_vacation_install () {
 
 
 ################################################################################
+### Head: Model flamingo
+##
+
+mod_flamingo_install () {
+
+	## https://github.com/necaris/leftwm-theme-flamingo
+
+	echo
+	leftwmrc_theme_repo_clone 'flamingo' 'https://github.com/necaris/leftwm-theme-flamingo.git'
+	echo
+}
+
+##
+### Tail: Model flamingo
+################################################################################
+
+
+################################################################################
 ### Head: SubCmd
 ##
 
@@ -1036,6 +1054,12 @@ sub_run_vacation () {
 	mod_vacation_install "$@"
 }
 
+
+sub_run_flamingo () {
+	#echo "sub_run_flamingo"
+	mod_flamingo_install "$@"
+}
+
 ##
 ### Tail: SubCmd
 ################################################################################
@@ -1111,6 +1135,8 @@ Example:
 		$ $cmd_name catppuccin
 
 		$ $cmd_name vacation
+
+		$ $cmd_name flamingo
 
 
 Debug:

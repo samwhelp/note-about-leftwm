@@ -15,3 +15,4 @@
 <?php include_once(__DIR__ . '/theme_amber/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_catppuccin/Usage.sh'); ?>
 <?php include_once(__DIR__ . '/theme_vacation/Usage.sh'); ?>
+<?php include_once(__DIR__ . '/theme_flamingo/Usage.sh'); ?>
