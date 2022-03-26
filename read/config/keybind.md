@@ -10,8 +10,8 @@ parent: 設定
 
 ## 設定檔
 
-* [~/.config/leftwm/config.toml](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/leftwm-config/leftwm-config/main/config/leftwm/config.toml)
-* [英文版說明](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/leftwm-config/leftwm-config/main/spec-keybind.md)
+* [~/.config/leftwm/config.toml](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/leftwm-config/main/config/leftwm/config.toml)
+* [英文版說明](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/leftwm-config/main/spec-keybind.md)
 
 
 ## 使用情境
