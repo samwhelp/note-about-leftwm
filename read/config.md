@@ -14,8 +14,8 @@ has_children: true
 ## 設定檔範例
 
 | 設定檔 |
-| [我的設定](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/main/config/leftwm/config.toml)
-| [系統預設](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/default/config/leftwm/config.toml) |
+| [我的設定](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/leftwm-config/main/config/leftwm/config.toml)
+| [系統預設](https://github.com/samwhelp/note-about-leftwm/blob/gh-pages/_demo/config/leftwm-config/default/config/leftwm/config.toml) |
 
 ## 設定檔文件說明
 
