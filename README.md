@@ -4,11 +4,6 @@
 * [note-about-leftwm](https://samwhelp.github.io/note-about-leftwm/) ([GitHub](https://github.com/samwhelp/note-about-leftwm))
 
 
-## samwhelp
-
-* [個人筆記](https://samwhelp.github.io/book/)
-
-
 ## 主題
 
 * [入門](#入門)
@@ -16,6 +11,7 @@
 * [使用情境](#使用情境)
 * [專案](#專案)
 * [注意事項](#注意事項)
+* [相關筆記](#相關筆記)
 
 ### 入門
 
@@ -78,3 +74,18 @@
 | 注意事項 |
 | --- |
 | [autostart](https://samwhelp.github.io/note-about-manjaro/read/adjustment/wm/leftwm.html#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85) |
+
+
+
+## 相關筆記
+
+* [ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/)
+* [manjaro 探索筆記](https://samwhelp.github.io/note-about-manjaro/)
+* [archcraft 探索筆記](https://samwhelp.github.io/note-about-archcraft/) / [archcraft-adjustment-package](https://github.com/samwhelp/archcraft-adjustment-package/) / [leftwm-with-tint](https://github.com/samwhelp/archcraft-adjustment-package/tree/main/core/wm/leftwm/archcraft-modeling-leftwm-with-tint/asset/etc/skel/.local/share/leftwmrc-profile/leftwm-with-tint/themes/leftwm_with_tint)
+* [xsession 簡易入門](https://samwhelp.github.io/note-about-xsession/)
+* [System Modeling](https://samwhelp.github.io/system-modeling/)
+
+## samwhelp
+
+* [個人筆記](https://samwhelp.github.io/book/)
+
