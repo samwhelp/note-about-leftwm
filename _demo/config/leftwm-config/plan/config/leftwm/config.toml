@@ -802,6 +802,13 @@ key = "Right"
 ##
 
 ## Window Floating To Tile
+## Win + Esc
+[[keybind]]
+command = "FloatingToTile"
+modifier = ["Mod4"]
+key = "Escape"
+
+## Window Floating To Tile
 ## Win + n
 [[keybind]]
 command = "FloatingToTile"
